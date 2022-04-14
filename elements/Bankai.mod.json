@@ -1,0 +1,36 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "aaa",
+    "customModelName": "bankaimodel1:default",
+    "name": "§5Тэнса Зангецу:Банкай!",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 0,
+    "damageVsEntity": 68.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BankaiLivingEntityIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "BankaiInventory"
+    },
+    "onItemInUseTick": {
+      "name": "BankaiHand"
+    }
+  }
+}

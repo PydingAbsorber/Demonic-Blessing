@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "mamaliga",
+    "customModelName": "Normal",
+    "name": "Мамалыга со шкварками",
+    "rarity": "EPIC",
+    "specialInfo": [
+      "Главное традиционное Молдавское блюдо"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 20,
+    "saturation": 20.0,
+    "eatingSpeed": 50,
+    "resultItem": {
+      "value": "Items.BOWL"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "MamaligaFoodEaten"
+    }
+  }
+}

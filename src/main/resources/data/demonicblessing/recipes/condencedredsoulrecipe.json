@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:redsoul"
+    },
+    "1": {
+      "item": "demonicblessing:redsoul"
+    },
+    "2": {
+      "item": "demonicblessing:redsoul"
+    },
+    "3": {
+      "item": "demonicblessing:redsoul"
+    },
+    "4": {
+      "item": "demonicblessing:redsoul"
+    },
+    "5": {
+      "item": "demonicblessing:redsoul"
+    },
+    "6": {
+      "item": "demonicblessing:redsoul"
+    },
+    "7": {
+      "item": "demonicblessing:redsoul"
+    },
+    "8": {
+      "item": "demonicblessing:redsoul"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:condencedredsoul",
+    "count": 1
+  }
+}

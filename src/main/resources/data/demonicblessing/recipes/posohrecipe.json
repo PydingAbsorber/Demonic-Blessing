@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "demonicblessing:nakonechnik"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "6": {
+      "item": "demonicblessing:nakonechnik"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:posoh",
+    "count": 1
+  }
+}

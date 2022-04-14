@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:water_dust"
+    },
+    "1": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "2": {
+      "item": "demonicblessing:megaflux_tank"
+    },
+    "3": {
+      "item": "demonicblessing:air_dust"
+    },
+    "4": {
+      "item": "demonicblessing:cosmic_dust"
+    },
+    "5": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "6": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "7": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "8": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:builders_forucs",
+    "count": 1
+  }
+}

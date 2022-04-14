@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "demonicblessing:bankai"
+    },
+    "title": {
+      "translate": "advancements.bankai_achive.title"
+    },
+    "description": {
+      "translate": "advancements.bankai_achive.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "bankai_achive": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "demonicblessing:astral_step"
+}

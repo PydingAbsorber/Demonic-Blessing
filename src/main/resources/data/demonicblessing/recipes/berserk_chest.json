@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "demonicblessing:void_amor_chestplate"
+    },
+    "3": {
+      "item": "demonicblessing:shadow_armor_chestplate"
+    },
+    "4": {
+      "item": "demonicblessing:shadow_spec_bar"
+    },
+    "5": {
+      "item": "demonicblessing:star_armor_chestplate"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:berserk_armor_chestplate",
+    "count": 1
+  }
+}

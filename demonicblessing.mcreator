@@ -1,0 +1,6049 @@
+{
+  "mod_elements": [
+    {
+      "name": "DarkinScytheToolInHandTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkin_scythe_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkinScythe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkin_scythe"
+    },
+    {
+      "name": "DarkinScytheItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkin_scythe_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkinScytheLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkin_scythe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaynScytheLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kayn_scythe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaynScytheItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kayn_scythe_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaynScythe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kayn_scythe"
+    },
+    {
+      "name": "BlueSoul",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_soul"
+    },
+    {
+      "name": "Redsoul",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redsoul"
+    },
+    {
+      "name": "Condencedbluesoul",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condencedbluesoul"
+    },
+    {
+      "name": "Condencedredsoul",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condencedredsoul"
+    },
+    {
+      "name": "Godlybluesoul",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlybluesoul"
+    },
+    {
+      "name": "Godlyredsoul",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlyredsoul"
+    },
+    {
+      "name": "Condencedbluesoulrecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condencedbluesoulrecipe"
+    },
+    {
+      "name": "Condencedredsoulrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condencedredsoulrecipe"
+    },
+    {
+      "name": "Godlybluesoulrecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlybluesoulrecipe"
+    },
+    {
+      "name": "Godlyredsoulrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlyredsoulrecipe"
+    },
+    {
+      "name": "DarkinScytheOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkin_scythe_on_player_stopped_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaynScytheToolInHandTick",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kayn_scythe_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaynScytheOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kayn_scythe_on_player_stopped_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkinScytheRightClickedInAir",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkin_scythe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaynScytheRightClickedInAir",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kayn_scythe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkinBuff",
+      "type": "potioneffect",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkin_buff"
+    },
+    {
+      "name": "KaynBuff",
+      "type": "potioneffect",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kayn_buff"
+    },
+    {
+      "name": "KaynBuffOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kayn_buff_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Achievement",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achievement"
+    },
+    {
+      "name": "Hmmm",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hmmm"
+    },
+    {
+      "name": "RhaastScytheOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhaast_scythe_on_player_stopped_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RhaastScythe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhaast_scythe"
+    },
+    {
+      "name": "RhaastScytheToolInHandTick",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhaast_scythe_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RhaastScytheLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhaast_scythe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RhaastScytheItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhaast_scythe_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RhaastScytheRightClickedInAir",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhaast_scythe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DemonicBlessing",
+      "type": "tab",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_blessing"
+    },
+    {
+      "name": "PydingOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyding_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pyding",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pyding"
+    },
+    {
+      "name": "RhaastScytheprikol",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhaast_scytheprikol"
+    },
+    {
+      "name": "Govnoresource",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "govnoresource"
+    },
+    {
+      "name": "Parasha",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasha"
+    },
+    {
+      "name": "ParashaLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasha_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DarkinScytheBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkin_scythe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AchievementOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achievement_on_player_stopped_using",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Popoo",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popoo"
+    },
+    {
+      "name": "Popoo2",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popoo_2"
+    },
+    {
+      "name": "Achievement2",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achievement_2"
+    },
+    {
+      "name": "Popoo2LivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popoo_2_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pata",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pata",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Baraban",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baraban"
+    },
+    {
+      "name": "Cancel",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancel",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaka",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaka",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Don",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "don",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Usilenie",
+      "type": "potioneffect",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usilenie"
+    },
+    {
+      "name": "Drumm",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drumm"
+    },
+    {
+      "name": "PydingThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyding_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PydingEntityIsHurt",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pyding_entity_is_hurt",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PydingRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyding_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "WingsOfDemonRightClickedInAir",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_of_demon_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KonfetkaFoodEaten",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "konfetka_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Konfetka",
+      "type": "food",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "konfetka"
+    },
+    {
+      "name": "Mamaliga",
+      "type": "food",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamaliga"
+    },
+    {
+      "name": "MamaligaFoodEaten",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamaliga_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brynza",
+      "type": "food",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brynza"
+    },
+    {
+      "name": "Bilet",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bilet"
+    },
+    {
+      "name": "BiletRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bilet_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Biletrecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biletrecipe"
+    },
+    {
+      "name": "DiediCanditoOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diedi_candito_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiediCandito",
+      "type": "livingentity",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "diedi_candito"
+    },
+    {
+      "name": "NetherStarBlock",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_block"
+    },
+    {
+      "name": "MamaligaItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamaliga_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherStarBlockIsPlacedByEntity",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_block_is_placed_by_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetherStarreverse",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_starreverse"
+    },
+    {
+      "name": "NetherStarBlockRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_star_block_recipe"
+    },
+    {
+      "name": "DiediCanditoEntityDies",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diedi_candito_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Konfetkarecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "konfetkarecipe"
+    },
+    {
+      "name": "MamaligaRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mamaliga_recipe"
+    },
+    {
+      "name": "Brynzarecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brynzarecipe"
+    },
+    {
+      "name": "KvadratikRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kvadratik_recipe"
+    },
+    {
+      "name": "TreugolnikRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treugolnik_recipe"
+    },
+    {
+      "name": "Musonopodavitel",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musonopodavitel"
+    },
+    {
+      "name": "IchigoSword",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichigo_sword"
+    },
+    {
+      "name": "IchigoSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichigo_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankaiLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bankai_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bankai",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bankai"
+    },
+    {
+      "name": "BankaiEffect",
+      "type": "potioneffect",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bankai_effect"
+    },
+    {
+      "name": "WwOnKeyPressed",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ww_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ww",
+      "type": "keybind",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ww"
+    },
+    {
+      "name": "BankaiAchive",
+      "type": "achievement",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bankai_achive"
+    },
+    {
+      "name": "SsOnKeyPressed",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ss_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ss",
+      "type": "keybind",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ss"
+    },
+    {
+      "name": "Zangetsu",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zangetsu"
+    },
+    {
+      "name": "FinalSecretBoss",
+      "type": "livingentity",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "final_secret_boss"
+    },
+    {
+      "name": "FinalSecretBossEntityDies",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_secret_boss_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FinalSecretBossEntityIsHurt",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_secret_boss_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FinalSecretBossOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_secret_boss_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FinalSecretBossOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_secret_boss_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SecretBossSpawn",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret_boss_spawn"
+    },
+    {
+      "name": "SecretBossSpawnRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret_boss_spawn_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AaOnKeyPressed",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aa",
+      "type": "keybind",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa"
+    },
+    {
+      "name": "DdOnKeyPressed",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dd_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dd",
+      "type": "keybind",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dd"
+    },
+    {
+      "name": "MusonopodavitelLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "musonopodavitel_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusonoPodavitelBuff",
+      "type": "potioneffect",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musono_podavitel_buff"
+    },
+    {
+      "name": "PrepareFinal",
+      "type": "achievement",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prepare_final"
+    },
+    {
+      "name": "SecretBoss",
+      "type": "loottable",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret_boss"
+    },
+    {
+      "name": "BankaiInventory",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bankai_inventory",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BankaiHand",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bankai_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IchigoAir",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichigo_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerTickupdate",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_tickupdate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PydingEntityDies",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyding_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pon",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UlquiorraDeath",
+      "type": "item",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ulquiorra_death"
+    },
+    {
+      "name": "DeathOfUlquiorra",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_of_ulquiorra"
+    },
+    {
+      "name": "BrammaKuva",
+      "type": "rangeditem",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bramma_kuva"
+    },
+    {
+      "name": "BrammaKuvaBulletHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bramma_kuva_bullet_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrammaKuvaBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bramma_kuva_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrammaKuvaRangedItemUsed",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bramma_kuva_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuckJreskoOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_jresko_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuckJreskoEntityDies",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_jresko_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FuckJresko",
+      "type": "livingentity",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fuck_jresko"
+    },
+    {
+      "name": "FrostMourne",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "frost_mourne",
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "KillForFrostMourne",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kill_for_frost_mourne",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "Arthas",
+      "type": "livingentity",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "arthas",
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "HandleFrostMourne",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "handle_frost_mourne",
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "BrokenFrostMourne",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "broken_frost_mourne",
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "PostamentArtasa",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "postament_artasa",
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "HurtEntity",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hurt_entity",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "ObitelArthasa",
+      "type": "structure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obitel_arthasa",
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "HandleCraft",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handle_craft",
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "FrostmourneCraft",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frostmourne_craft",
+      "path": "~/QWE_VALERA"
+    },
+    {
+      "name": "FuckJreskoSummon",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_jresko_summon"
+    },
+    {
+      "name": "FuckJreskoSummonGive",
+      "type": "loottable",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_jresko_summon_give"
+    },
+    {
+      "name": "FuckJreskoSummonItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_jresko_summon_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LunarianSword",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunarian_sword"
+    },
+    {
+      "name": "LunarianSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lunarian_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LunarianSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunarian_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShadowArmor",
+      "type": "armor",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ShadowArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shadow_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Obmen1",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obmen_1"
+    },
+    {
+      "name": "Obmen2",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obmen_2"
+    },
+    {
+      "name": "Abobochka",
+      "type": "potioneffect",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abobochka"
+    },
+    {
+      "name": "Shadoworeblock",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadoworeblock"
+    },
+    {
+      "name": "ShadoworeblockPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadoworeblock_player_starts_to_destroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shadowingot",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowingot"
+    },
+    {
+      "name": "Shadowzxc",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowzxc"
+    },
+    {
+      "name": "Shadowzxcrecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowzxcrecipe"
+    },
+    {
+      "name": "Shadowhelmet",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowhelmet"
+    },
+    {
+      "name": "Shadowchest",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowchest"
+    },
+    {
+      "name": "Shadowlegs",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowlegs"
+    },
+    {
+      "name": "Shadowboots",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowboots"
+    },
+    {
+      "name": "Shadoworeendblock",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadoworeendblock"
+    },
+    {
+      "name": "Ekumea",
+      "type": "livingentity",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ekumea"
+    },
+    {
+      "name": "Moonblock",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonblock"
+    },
+    {
+      "name": "Moon",
+      "type": "dimension",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Moonbiome",
+      "type": "biome",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonbiome"
+    },
+    {
+      "name": "Lunean",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunean"
+    },
+    {
+      "name": "Ekumeagui",
+      "type": "gui",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ekumeagui"
+    },
+    {
+      "name": "EkumeaRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ekumea_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EkumeaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ekumea_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Butt",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Foss",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foss"
+    },
+    {
+      "name": "Morganit",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morganit"
+    },
+    {
+      "name": "Goshenit",
+      "type": "item",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goshenit"
+    },
+    {
+      "name": "Rutil",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rutil"
+    },
+    {
+      "name": "RedBerill",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_berill"
+    },
+    {
+      "name": "Beniotit",
+      "type": "item",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beniotit"
+    },
+    {
+      "name": "Kinovari",
+      "type": "item",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinovari"
+    },
+    {
+      "name": "Jadeit",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeit"
+    },
+    {
+      "name": "Almaz",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almaz"
+    },
+    {
+      "name": "Yellowdiamond",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowdiamond"
+    },
+    {
+      "name": "MoonblockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonblock_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidAmor",
+      "type": "armor",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_amor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Void1",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1"
+    },
+    {
+      "name": "Void2",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_2"
+    },
+    {
+      "name": "Void3",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_3"
+    },
+    {
+      "name": "Void4",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_4"
+    },
+    {
+      "name": "StarArmor",
+      "type": "armor",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "StarArmorLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "star_armor_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Star",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star"
+    },
+    {
+      "name": "StarArmor1",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_armor_1"
+    },
+    {
+      "name": "StarArmor2",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_armor_2"
+    },
+    {
+      "name": "StarArmor3",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_armor_3"
+    },
+    {
+      "name": "StarArmor4",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_armor_4"
+    },
+    {
+      "name": "DrummRightClickedInAir",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drumm_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BrammaKuvaCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bramma_kuva_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Popoo2RightClickedInAir",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popoo_2_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerDeathEvent",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_death_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusonopodavitelRightClickedInAir",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musonopodavitel_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Electrozxc",
+      "type": "tool",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrozxc"
+    },
+    {
+      "name": "ElectrozxcLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrozxc_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElectrozxcRightClickedInAir",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrozxc_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElectrozxcToolInHandTick",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrozxc_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ElectrozxcEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrozxc_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Electriccrystal",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electriccrystal"
+    },
+    {
+      "name": "Electrozxcrecipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrozxcrecipe"
+    },
+    {
+      "name": "Electroteleport",
+      "type": "keybind",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electroteleport"
+    },
+    {
+      "name": "ElectroteleportOnKeyPressed",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electroteleport_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zapp1",
+      "type": "overlay",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapp_1"
+    },
+    {
+      "name": "Zapp1DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapp_1_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zapp2DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapp_2_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zapp2",
+      "type": "overlay",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapp_2"
+    },
+    {
+      "name": "Zapp3DisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapp_3_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zapp3",
+      "type": "overlay",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapp_3"
+    },
+    {
+      "name": "Crystal1",
+      "type": "item",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_1"
+    },
+    {
+      "name": "Crystal2",
+      "type": "item",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_2"
+    },
+    {
+      "name": "Crystal3",
+      "type": "item",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_3"
+    },
+    {
+      "name": "Otrub",
+      "type": "keybind",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otrub"
+    },
+    {
+      "name": "Crystal11",
+      "type": "item",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_11"
+    },
+    {
+      "name": "OtrubOnKeyPressed",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otrub_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Amethyst",
+      "type": "item",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst"
+    },
+    {
+      "name": "Wallet",
+      "type": "item",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallet"
+    },
+    {
+      "name": "CannabsaOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabsa_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cannabsa",
+      "type": "livingentity",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabsa"
+    },
+    {
+      "name": "Posoh",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "posoh"
+    },
+    {
+      "name": "Nakonechnik",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nakonechnik"
+    },
+    {
+      "name": "Nakon",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nakon"
+    },
+    {
+      "name": "Posohrecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "posohrecipe"
+    },
+    {
+      "name": "PosohRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "posoh_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kniga",
+      "type": "item",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kniga"
+    },
+    {
+      "name": "KnigaGui",
+      "type": "gui",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kniga_gui"
+    },
+    {
+      "name": "KnigaRightClickedInAir",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kniga_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KnigaButton",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kniga_button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Walletx8",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walletx_8"
+    },
+    {
+      "name": "Walletx8recipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walletx_8recipe"
+    },
+    {
+      "name": "CannabsaEntityDies",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabsa_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PosohLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "posoh_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityDies",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerJoinsWorld",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_joins_world",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmertItem",
+      "type": "item",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smert_item"
+    },
+    {
+      "name": "Smert",
+      "type": "achievement",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smert"
+    },
+    {
+      "name": "Rosa",
+      "type": "item",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosa"
+    },
+    {
+      "name": "BloodRosa",
+      "type": "item",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_rosa"
+    },
+    {
+      "name": "CannabsaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabsa_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodRage",
+      "type": "potioneffect",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_rage"
+    },
+    {
+      "name": "RageCannabsa",
+      "type": "livingentity",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage_cannabsa"
+    },
+    {
+      "name": "RageCannabsaEntityDies",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage_cannabsa_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RageCannabsaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage_cannabsa_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RageCannabsaEntityIsHurt",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rage_cannabsa_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RosaLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosa_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MusonopodavitelItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musonopodavitel_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bonk",
+      "type": "gui",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonk"
+    },
+    {
+      "name": "Mod1",
+      "type": "item",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_1"
+    },
+    {
+      "name": "Mod2",
+      "type": "item",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_2"
+    },
+    {
+      "name": "Mod3",
+      "type": "item",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_3"
+    },
+    {
+      "name": "Stokholm",
+      "type": "dimension",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stokholm",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "DungeonAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeon_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dungeon",
+      "type": "structure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeon"
+    },
+    {
+      "name": "FinalPydingRage",
+      "type": "livingentity",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "final_pyding_rage"
+    },
+    {
+      "name": "FinalPydingRageOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_pyding_rage_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FinalPydingRageThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_pyding_rage_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FinalPydingRageEntityFalls",
+      "type": "procedure",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_pyding_rage_entity_falls",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FinalPydingRageEntityIsHurt",
+      "type": "procedure",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_pyding_rage_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidBiome",
+      "type": "biome",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_biome"
+    },
+    {
+      "name": "Chest",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest"
+    },
+    {
+      "name": "ChestParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_particle_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimerDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "timer_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Timer",
+      "type": "overlay",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "timer"
+    },
+    {
+      "name": "MediumChest",
+      "type": "block",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medium_chest"
+    },
+    {
+      "name": "Amogus",
+      "type": "painting",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amogus"
+    },
+    {
+      "name": "Meme2",
+      "type": "painting",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meme_2"
+    },
+    {
+      "name": "MediumChestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medium_chest_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Niceclockbigfoot",
+      "type": "livingentity",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "niceclockbigfoot"
+    },
+    {
+      "name": "NiceclockbigfootOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niceclockbigfoot_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiniPekka",
+      "type": "livingentity",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mini_pekka"
+    },
+    {
+      "name": "NiceclockbigfootEntityIsHurt",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niceclockbigfoot_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MiniPekkaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_pekka_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shrooms",
+      "type": "structure",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shrooms"
+    },
+    {
+      "name": "Portal",
+      "type": "block",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal"
+    },
+    {
+      "name": "PortalEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PortalUpp",
+      "type": "block",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_upp"
+    },
+    {
+      "name": "PortalDown",
+      "type": "block",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_down"
+    },
+    {
+      "name": "PortalUppOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_upp_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PortalDownOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_down_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Beam",
+      "type": "block",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beam"
+    },
+    {
+      "name": "PlayerDealsCriticalHit",
+      "type": "procedure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_deals_critical_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nameless",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nameless"
+    },
+    {
+      "name": "AirGemSmall",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_gem_small"
+    },
+    {
+      "name": "GemSockets",
+      "type": "gui",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_sockets"
+    },
+    {
+      "name": "AirGemSmallItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_gem_small_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PalkaTesta",
+      "type": "item",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palka_testa"
+    },
+    {
+      "name": "PalkaTestaLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palka_testa_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GemCraft",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_craft"
+    },
+    {
+      "name": "GemSocketsWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_sockets_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flux",
+      "type": "item",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flux"
+    },
+    {
+      "name": "AirGemBig",
+      "type": "item",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_gem_big"
+    },
+    {
+      "name": "RedGem",
+      "type": "item",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem"
+    },
+    {
+      "name": "RedGemBig",
+      "type": "item",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem_big"
+    },
+    {
+      "name": "BlueGem",
+      "type": "item",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_gem"
+    },
+    {
+      "name": "BlueGemBig",
+      "type": "item",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_gem_big"
+    },
+    {
+      "name": "CosmicGem",
+      "type": "item",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_gem"
+    },
+    {
+      "name": "CosmicGemBig",
+      "type": "item",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_gem_big"
+    },
+    {
+      "name": "BigGemCrafted",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_gem_crafted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MegafluxTank",
+      "type": "item",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megaflux_tank"
+    },
+    {
+      "name": "MegafluxTankRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megaflux_tank_recipe"
+    },
+    {
+      "name": "FluxRecipe",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flux_recipe"
+    },
+    {
+      "name": "AirDust",
+      "type": "item",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_dust"
+    },
+    {
+      "name": "WaterDust",
+      "type": "item",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_dust"
+    },
+    {
+      "name": "FireDust",
+      "type": "item",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_dust"
+    },
+    {
+      "name": "CosmicDust",
+      "type": "item",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_dust"
+    },
+    {
+      "name": "BigAirGemCraft",
+      "type": "recipe",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_air_gem_craft"
+    },
+    {
+      "name": "BlueGemRecipe",
+      "type": "recipe",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_gem_recipe"
+    },
+    {
+      "name": "BigBlueGemRecipe",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_blue_gem_recipe"
+    },
+    {
+      "name": "RedGemRecipe",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_gem_recipe"
+    },
+    {
+      "name": "BigRedGemRecipe",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_red_gem_recipe"
+    },
+    {
+      "name": "CosmicGemRecipe",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_gem_recipe"
+    },
+    {
+      "name": "BigCosmicGemRecipe",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_cosmic_gem_recipe"
+    },
+    {
+      "name": "ChaosSpark",
+      "type": "item",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_spark"
+    },
+    {
+      "name": "BuildersForucs",
+      "type": "item",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_forucs"
+    },
+    {
+      "name": "GemSocketsThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_sockets_this_gui_is_opened",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BuildersFocus",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_focus"
+    },
+    {
+      "name": "GemForge",
+      "type": "block",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_forge"
+    },
+    {
+      "name": "GemForgeGui",
+      "type": "gui",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_forge_gui"
+    },
+    {
+      "name": "GemForgeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_forge_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BuilderFocusFunction",
+      "type": "procedure",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builder_focus_function",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChaosSparkFunction",
+      "type": "procedure",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaos_spark_function",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GemForgeRecipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_forge_recipe"
+    },
+    {
+      "name": "GemPouchRecipe",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_pouch_recipe"
+    },
+    {
+      "name": "PurpleScythe",
+      "type": "item",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_scythe"
+    },
+    {
+      "name": "PurpleScytheEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "purple_scythe_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleScytheRightClickedInAir",
+      "type": "procedure",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_scythe_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleScytheItemInHandTick",
+      "type": "procedure",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_scythe_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlyTimeDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_time_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlyTime",
+      "type": "overlay",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_time"
+    },
+    {
+      "name": "FinalPydingRageEntityDies",
+      "type": "procedure",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_pyding_rage_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreateZangetsu",
+      "type": "achievement",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_zangetsu"
+    },
+    {
+      "name": "FuckJresco",
+      "type": "achievement",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuck_jresco"
+    },
+    {
+      "name": "IchigoSwordItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichigo_sword_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tab",
+      "type": "achievement",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab"
+    },
+    {
+      "name": "FirstSteps",
+      "type": "achievement",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_steps"
+    },
+    {
+      "name": "PosohItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "posoh_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SecondStep",
+      "type": "achievement",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_step"
+    },
+    {
+      "name": "AstralStep",
+      "type": "achievement",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_step"
+    },
+    {
+      "name": "TicketToWhat",
+      "type": "achievement",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ticket_to_what"
+    },
+    {
+      "name": "BiletItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bilet_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurpleScytheSwing",
+      "type": "procedure",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "purple_scythe_swing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WishRecipe",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wish_recipe"
+    },
+    {
+      "name": "BerserkArmor",
+      "type": "armor",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berserk_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ShadowSpecBar",
+      "type": "item",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_spec_bar"
+    },
+    {
+      "name": "ShadowSpecBarItemInHandTick",
+      "type": "procedure",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_spec_bar_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BerserkHelm",
+      "type": "recipe",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berserk_helm"
+    },
+    {
+      "name": "BerserkChest",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berserk_chest"
+    },
+    {
+      "name": "BerserkLeggs",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berserk_leggs"
+    },
+    {
+      "name": "BerserkBoots",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berserk_boots"
+    },
+    {
+      "name": "MusonopodavitelMakeItemGlow",
+      "type": "procedure",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musonopodavitel_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KrulTepes",
+      "type": "food",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krul_tepes"
+    },
+    {
+      "name": "KrulTepesFoodEaten",
+      "type": "procedure",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krul_tepes_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FreshMeat",
+      "type": "food",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fresh_meat"
+    },
+    {
+      "name": "FreshMeatFoodEaten",
+      "type": "procedure",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fresh_meat_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CookedMeat",
+      "type": "food",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_meat"
+    },
+    {
+      "name": "CookedMeatreipe",
+      "type": "recipe",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_meatreipe"
+    },
+    {
+      "name": "AdamsApple",
+      "type": "food",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adams_apple"
+    },
+    {
+      "name": "AdamsAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adams_apple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Graal",
+      "type": "item",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graal"
+    },
+    {
+      "name": "Classes",
+      "type": "gui",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classes"
+    },
+    {
+      "name": "GraalRightClickedInAir",
+      "type": "procedure",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graal_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResetClass",
+      "type": "procedure",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_class",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "zapp",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "critdamage",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "critchance",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "maxhp",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "hpregen",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "powerrank",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fly_y",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fly_speed",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "fly_time",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "flyspeedreal",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "rhaastattack",
+      "files": [
+        "rhastattack"
+      ],
+      "category": "block",
+      "subtitle": "RhaastAttack"
+    },
+    {
+      "name": "rhaastdrops",
+      "files": [
+        "rhaastdrops"
+      ],
+      "category": "block",
+      "subtitle": "rhaastdrops"
+    },
+    {
+      "name": "darkincraft",
+      "files": [
+        "darkincraft"
+      ],
+      "category": "neutral",
+      "subtitle": "darkincraft"
+    },
+    {
+      "name": "kayncraft",
+      "files": [
+        "untitled"
+      ],
+      "category": "block",
+      "subtitle": "kayncraft"
+    },
+    {
+      "name": "kaynjokedeath",
+      "files": [
+        "kaynjokedeath"
+      ],
+      "category": "block",
+      "subtitle": "kaynjokedeath"
+    },
+    {
+      "name": "pokajichego",
+      "files": [
+        "pokajichego"
+      ],
+      "category": "block",
+      "subtitle": "pokajichego"
+    },
+    {
+      "name": "kishki",
+      "files": [
+        "kishkinaruju"
+      ],
+      "category": "block",
+      "subtitle": "kishki"
+    },
+    {
+      "name": "chembolshevrag",
+      "files": [
+        "chembolshevrag"
+      ],
+      "category": "block",
+      "subtitle": "chembolshevrag"
+    },
+    {
+      "name": "onsleduyushiy",
+      "files": [
+        "on_sleduyushiy"
+      ],
+      "category": "block",
+      "subtitle": "onsleduyushiy"
+    },
+    {
+      "name": "novayateli",
+      "files": [
+        "novayateli"
+      ],
+      "category": "block",
+      "subtitle": "novayateli"
+    },
+    {
+      "name": "darkindeath2",
+      "files": [
+        "darkindeath2"
+      ],
+      "category": "block",
+      "subtitle": "darkindeath2"
+    },
+    {
+      "name": "darkindeath1",
+      "files": [
+        "darkindeath1"
+      ],
+      "category": "block",
+      "subtitle": "darkindeath1"
+    },
+    {
+      "name": "darkindeath3",
+      "files": [
+        "darkindeath3"
+      ],
+      "category": "block",
+      "subtitle": "darkindeath3"
+    },
+    {
+      "name": "darkindeath4",
+      "files": [
+        "darkindeath4"
+      ],
+      "category": "block",
+      "subtitle": "darkindeath4"
+    },
+    {
+      "name": "darkinattack1",
+      "files": [
+        "darkinattack1"
+      ],
+      "category": "block",
+      "subtitle": "darkinattack1"
+    },
+    {
+      "name": "darkinattack2",
+      "files": [
+        "darkinattack2"
+      ],
+      "category": "block",
+      "subtitle": "darkinattack2"
+    },
+    {
+      "name": "darkinattack3",
+      "files": [
+        "darkinattack3"
+      ],
+      "category": "block",
+      "subtitle": "darkinattack3"
+    },
+    {
+      "name": "darkinattack4",
+      "files": [
+        "darkinattack4"
+      ],
+      "category": "block",
+      "subtitle": "darkinattack4"
+    },
+    {
+      "name": "strongkayndeathjoke2",
+      "files": [
+        "strongkayndeathjoke2"
+      ],
+      "category": "block",
+      "subtitle": "strongkayndeathjoke2"
+    },
+    {
+      "name": "strongkayndeathjoke3",
+      "files": [
+        "strongkayndeathjoke3"
+      ],
+      "category": "block",
+      "subtitle": "strongkayndeathjoke3"
+    },
+    {
+      "name": "strongkayndeathjoke4",
+      "files": [
+        "strongkayndeathjoke4"
+      ],
+      "category": "block",
+      "subtitle": "strongkayndeathjoke4"
+    },
+    {
+      "name": "weakkayndeathjoke",
+      "files": [
+        "weakkayndeathjoke"
+      ],
+      "category": "block",
+      "subtitle": "weakkayndeathjoke"
+    },
+    {
+      "name": "stkaynattack1",
+      "files": [
+        "stkaynattack1"
+      ],
+      "category": "block",
+      "subtitle": "stkaynattack1"
+    },
+    {
+      "name": "stkaynattack2",
+      "files": [
+        "stkaynattack2"
+      ],
+      "category": "block",
+      "subtitle": "stkaynattack2"
+    },
+    {
+      "name": "stkaynattack3",
+      "files": [
+        "stkaynattack3"
+      ],
+      "category": "block",
+      "subtitle": "stkaynattack3"
+    },
+    {
+      "name": "stkaynattack4",
+      "files": [
+        "stkaynattack4"
+      ],
+      "category": "block",
+      "subtitle": "stkaynattack4"
+    },
+    {
+      "name": "ehetenandayo",
+      "files": [
+        "ehe_te_nandayo"
+      ],
+      "category": "block",
+      "subtitle": "ehetenandayo"
+    },
+    {
+      "name": "darkinsmeh",
+      "files": [
+        "darkinlaugh"
+      ],
+      "category": "block",
+      "subtitle": "darkinsmeh"
+    },
+    {
+      "name": "darkinsmeh2",
+      "files": [
+        "darkinsmeh2"
+      ],
+      "category": "block",
+      "subtitle": "darkinsmeh2"
+    },
+    {
+      "name": "kaynskill1",
+      "files": [
+        "kaynskill1"
+      ],
+      "category": "block",
+      "subtitle": "kaynskill1"
+    },
+    {
+      "name": "kaynskill2",
+      "files": [
+        "kaynskill2"
+      ],
+      "category": "block",
+      "subtitle": "kaynskill2"
+    },
+    {
+      "name": "patapondonchaka",
+      "files": [
+        "patapondonchaka"
+      ],
+      "category": "block",
+      "subtitle": "patapondonchaka"
+    },
+    {
+      "name": "ponponchakachaka",
+      "files": [
+        "ponponchakachaka"
+      ],
+      "category": "block",
+      "subtitle": "ponponchakachaka"
+    },
+    {
+      "name": "ponponpatapon",
+      "files": [
+        "ponponpatapon"
+      ],
+      "category": "block",
+      "subtitle": "ponponpatapon"
+    },
+    {
+      "name": "dondonchakachaka",
+      "files": [
+        "dondonchakachaka"
+      ],
+      "category": "block",
+      "subtitle": "dondonchakachaka"
+    },
+    {
+      "name": "dondondondondon",
+      "files": [
+        "dondondondondon"
+      ],
+      "category": "block",
+      "subtitle": "dondondondondon"
+    },
+    {
+      "name": "pon",
+      "files": [
+        "pon"
+      ],
+      "category": "block",
+      "subtitle": "pon"
+    },
+    {
+      "name": "don",
+      "files": [
+        "don"
+      ],
+      "category": "block",
+      "subtitle": "don"
+    },
+    {
+      "name": "chaka",
+      "files": [
+        "chaka"
+      ],
+      "category": "block",
+      "subtitle": "chaka"
+    },
+    {
+      "name": "pata",
+      "files": [
+        "pata"
+      ],
+      "category": "block",
+      "subtitle": "pata"
+    },
+    {
+      "name": "patanorm",
+      "files": [
+        "patanorm"
+      ],
+      "category": "block",
+      "subtitle": "patanorm"
+    },
+    {
+      "name": "ponpataponpata",
+      "files": [
+        "ponpataponpata"
+      ],
+      "category": "block",
+      "subtitle": "ponpataponpata"
+    },
+    {
+      "name": "patapatapatapon",
+      "files": [
+        "patapatapatapon"
+      ],
+      "category": "block",
+      "subtitle": "patapatapatapon"
+    },
+    {
+      "name": "chakachakapatapon",
+      "files": [
+        "chakachakapatapon"
+      ],
+      "category": "block",
+      "subtitle": "chakachakapatapon"
+    },
+    {
+      "name": "rhastjoke",
+      "files": [
+        "jokekayn"
+      ],
+      "category": "neutral",
+      "subtitle": "rhastjoke"
+    },
+    {
+      "name": "dungeontomas",
+      "files": [
+        "dungeontomas"
+      ],
+      "category": "block",
+      "subtitle": "dungeontomas"
+    },
+    {
+      "name": "positiibruno",
+      "files": [
+        "4positiibruno"
+      ],
+      "category": "block",
+      "subtitle": "positiibruno"
+    },
+    {
+      "name": "bleachsongpre",
+      "files": [
+        "standuppbestrong"
+      ],
+      "category": "block",
+      "subtitle": "bleachsongpre"
+    },
+    {
+      "name": "bleachfinalsong",
+      "files": [
+        "finalbattle"
+      ],
+      "category": "block",
+      "subtitle": "bleachfinalsong"
+    },
+    {
+      "name": "sonido",
+      "files": [
+        "sonido"
+      ],
+      "category": "block",
+      "subtitle": "sonido"
+    },
+    {
+      "name": "bankai",
+      "files": [
+        "bankai"
+      ],
+      "category": "block",
+      "subtitle": "bankai"
+    },
+    {
+      "name": "finalbleach",
+      "files": [
+        "clavarlaespada"
+      ],
+      "category": "block",
+      "subtitle": "finalbleach"
+    },
+    {
+      "name": "arrowbramma",
+      "files": [
+        "arrowbrammakuva"
+      ],
+      "category": "block",
+      "subtitle": "arrowbramma"
+    },
+    {
+      "name": "shotbramma",
+      "files": [
+        "shotbramma"
+      ],
+      "category": "block",
+      "subtitle": "shotbramma"
+    },
+    {
+      "name": "involaugh",
+      "files": [
+        "involaugh"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "musonopodavitel",
+      "files": [
+        "musonopodavitel"
+      ],
+      "category": "block",
+      "subtitle": "musonopodavitel"
+    },
+    {
+      "name": "musonopodavitelabsorber",
+      "files": [
+        "musonabsorb"
+      ],
+      "category": "block",
+      "subtitle": "musonopodavitelabsorber"
+    },
+    {
+      "name": "minipekkadies",
+      "files": [
+        "pekkadies"
+      ],
+      "category": "hostile",
+      "subtitle": "minipekkadies"
+    },
+    {
+      "name": "puncakes",
+      "files": [
+        "puncakes"
+      ],
+      "category": "hostile",
+      "subtitle": "puncakes"
+    },
+    {
+      "name": "megatron",
+      "files": [
+        "megatron"
+      ],
+      "category": "hostile",
+      "subtitle": "megatron"
+    },
+    {
+      "name": "robotattack1",
+      "files": [
+        "robotattack1"
+      ],
+      "category": "hostile",
+      "subtitle": "robotattack1"
+    },
+    {
+      "name": "robotattack2",
+      "files": [
+        "robotattack2"
+      ],
+      "category": "hostile",
+      "subtitle": "robotattack2"
+    },
+    {
+      "name": "robotwalking",
+      "files": [
+        "robotwalking"
+      ],
+      "category": "hostile",
+      "subtitle": "robotwalking"
+    },
+    {
+      "name": "robotdies",
+      "files": [
+        "robotdies"
+      ],
+      "category": "hostile",
+      "subtitle": "robotdies"
+    },
+    {
+      "name": "chestopening",
+      "files": [
+        "chestopening"
+      ],
+      "category": "block",
+      "subtitle": "chestopening"
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "advancements.smert.descr": "как же хочеца поставить паузу...",
+      "item.demonicblessing.condencedredsoul": "Сжатая Красная душа",
+      "entity.demonicblessing.diedi_candito": "Diedhimself",
+      "subtitles.dungeontomas": "dungeontomas",
+      "item.demonicblessing.goshenit": "Гошенит",
+      "effect.abobochka": "Аааабоба",
+      "item.demonicblessing.shadowzxc": "Теневой СЛИТок",
+      "block.demonicblessing.postament_artasa": "Призыв Артаса",
+      "item.demonicblessing.void_amor_boots": "§d§lПотерянные носки с чёрными дырами",
+      "item.demonicblessing.popoo": "Игра в Омара:",
+      "item.demonicblessing.ichigo_sword": "§8Тэнса Зангецу",
+      "block.demonicblessing.nether_star_block": "Блок Звёзд Ада",
+      "item.demonicblessing.mini_pekka_spawn_egg": "Мини Пекка Spawn Egg",
+      "item.demonicblessing.yellowdiamond": "Жёлтый Алмаз",
+      "item.demonicblessing.electriccrystal": "Электрический кристалл",
+      "effect.blood_rage": "Кровавая ярость",
+      "subtitles.rhastjoke": "rhastjoke",
+      "subtitles.finalbleach": "finalbleach",
+      "item.demonicblessing.water_dust": "§bВодяная пыль",
+      "item.demonicblessing.berserk_armor_chestplate": "Я просто",
+      "item.demonicblessing.redsoul": "Красная душа",
+      "item.demonicblessing.star_armor_leggings": "§bГамаши хокаге",
+      "item.demonicblessing.kinovari": "Киноварь",
+      "subtitles.weakkayndeathjoke": "weakkayndeathjoke",
+      "item.demonicblessing.red_berill": "Красный Берилл",
+      "advancements.bankai_achive.descr": "Разблокируй невероятную силу Зангецу",
+      "item.demonicblessing.frost_mourne": "Ледяная Скорбь",
+      "block.demonicblessing.portal": "Portal",
+      "item.demonicblessing.ekumea_spawn_egg": "Эхмея Spawn Egg",
+      "subtitles.patapondonchaka": "patapondonchaka",
+      "item.demonicblessing.rhaast_scythe": "§6Коса Рааста",
+      "subtitles.puncakes": "puncakes",
+      "item.demonicblessing.drumm": "Священный Барабан",
+      "item.demonicblessing.musonopodavitel": "Музоно Подавитель",
+      "subtitles.involaugh": "",
+      "item.demonicblessing.void_amor_leggings": "§d§lТрусики сфа",
+      "advancements.second_step.descr": "keep it up! now lets summon her more powerfull version with black rose",
+      "advancements.death_of_ulquiorra.title": "ЧТО?!?!??!?!!??!",
+      "subtitles.ponponchakachaka": "ponponchakachaka",
+      "item.demonicblessing.nakonechnik": "Железный наконечник",
+      "subtitles.rhaastdrops": "rhaastdrops",
+      "item.demonicblessing.palka_testa": "§5§mCredit§2Gem Pouch",
+      "item.demonicblessing.moon": "Древняя технология лунян",
+      "effect.kayn_buff": "Мощь Каина",
+      "item.demonicblessing.niceclockbigfoot_spawn_egg": "NiceClockBigFoot Spawn Egg",
+      "subtitles.bleachsongpre": "bleachsongpre",
+      "item.demonicblessing.electrozxc": "§dРассекающий туман",
+      "item.demonicblessing.graal": "§eGraal",
+      "item.demonicblessing.secret_boss_spawn": "Призыв Всемогущего Пудинга:Финальная форма",
+      "key.demonicblessing.ww": "Сонидо вперёд",
+      "item.demonicblessing.purple_scythe": "§dКоса §5Каина-§4Бру§bзера",
+      "item.demonicblessing.morganit": "Морганит",
+      "advancements.astral_step.descr": "russian reference,don\u0027t take it to the heart :) Just make dick with star blocks to summon Diedi Candito",
+      "subtitles.sonido": "sonido",
+      "item.demonicblessing.final_pyding_rage_spawn_egg": "Final Pyding Rage Spawn Egg",
+      "item.demonicblessing.wallet": "§bП§5р§bи§5м§bо§5ж§bэ§5м",
+      "item.demonicblessing.mod_1": "§eПродуманный вихрь",
+      "item.demonicblessing.mod_2": "§eРаздельный патронник",
+      "item.demonicblessing.mod_3": "§eЗлодейская акселерация",
+      "advancements.bankai_achive.title": "Баааанкаааааааааай!!!",
+      "subtitles.robotwalking": "robotwalking",
+      "item.demonicblessing.shadow_armor_chestplate": "§5Теневой Нагрудник",
+      "entity.demonicblessing.mini_pekka": "Мини Пекка",
+      "item.demonicblessing.blue_gem": "§bВодяной гем",
+      "item.demonicblessing.fresh_meat": "Humans Flesh",
+      "block.demonicblessing.moonblock": "Лунный камень",
+      "item.demonicblessing.kayn_scythe": "§bКоса Рааста:Форма Сумеречного убийцы",
+      "item.demonicblessing.builders_forucs": "§eBuilder\u0027s §4Focus",
+      "key.demonicblessing.dd": "Сонидо вправо",
+      "subtitles.bankai": "bankai",
+      "subtitles.chembolshevrag": "chembolshevrag",
+      "subtitles.ponpataponpata": "ponpataponpata",
+      "subtitles.ponponpatapon": "ponponpatapon",
+      "subtitles.darkinattack1": "darkinattack1",
+      "subtitles.darkinattack2": "darkinattack2",
+      "block.demonicblessing.shadoworeblock": "Теневая руда",
+      "subtitles.darkinattack3": "darkinattack3",
+      "subtitles.darkinattack4": "darkinattack4",
+      "item.demonicblessing.crystal_1": " Кристалл увеличенной ёмкости",
+      "subtitles.chestopening": "chestopening",
+      "item.demonicblessing.crystal_3": "Легендарный кристалл первородной энергии",
+      "item.demonicblessing.stokholm": "У меня нет идей",
+      "item.demonicblessing.crystal_2": "Заряженный церемониальной энегрией кристалл",
+      "item.demonicblessing.rosa": "§0Чёрная роза",
+      "item.demonicblessing.beniotit": "Бениотит",
+      "item.demonicblessing.fuck_jresko_summon": "Кукла Вуду Fuck Jresko",
+      "item.demonicblessing.pyding_spawn_egg": "Pyding Spawn Egg",
+      "advancements.smert.title": "Бл*дь,я себя зах*ярил ",
+      "item.demonicblessing.flux": "§eFlux",
+      "item.demonicblessing.achievement_2": "Achievement 2",
+      "advancements.hmmm.descr": "Угадай секретную комбинацию вещей и приготовь огнетушитель",
+      "itemGroup.tabdemonic_blessing": "§5Демоническое Благословление",
+      "item.demonicblessing.amethyst": "§4П§c§6е§eр§2в§aо§bр§3о§1д§9н§dы§5й §fа§4м§cе§6т§eи§2с§aт",
+      "subtitles.megatron": "megatron",
+      "subtitles.pata": "pata",
+      "advancements.death_of_ulquiorra.descr": "Как я бл*ять должен убить следующего босса?Ты угараешь?",
+      "subtitles.shotbramma": "shotbramma",
+      "item.demonicblessing.void_amor_helmet": "§d§lПустотный набошник",
+      "subtitles.stkaynattack3": "stkaynattack3",
+      "item.demonicblessing.almaz": "Алмаз",
+      "item.demonicblessing.fire_dust": "§4Огненная пыль",
+      "subtitles.stkaynattack4": "stkaynattack4",
+      "item.demonicblessing.condencedbluesoul": "Сжатая Синяя душа",
+      "subtitles.stkaynattack1": "stkaynattack1",
+      "subtitles.stkaynattack2": "stkaynattack2",
+      "item.demonicblessing.star_armor_chestplate": "§bНинзёвый прикидон",
+      "subtitles.robotdies": "robotdies",
+      "subtitles.dondonchakachaka": "dondonchakachaka",
+      "entity.demonicblessing.final_secret_boss": "Секретный Пудинг",
+      "biome.demonicblessing.void_biome": "OblivionBiome",
+      "item.demonicblessing.godlyredsoul": "Дьявольская Красная душа",
+      "effect.usilenie": "Усиление",
+      "subtitles.pon": "pon",
+      "subtitles.patapatapatapon": "patapatapatapon",
+      "item.demonicblessing.kniga": "Эдикт священных писаний Мудрезистора",
+      "item.demonicblessing.brynza": "Брынза",
+      "advancements.fuck_jresco.descr": "как же мне ПО*УЙ ",
+      "key.demonicblessing.ss": "Сонидо назад",
+      "advancements.ticket_to_what.title": "Ticket to what?",
+      "item.demonicblessing.cosmic_dust": "§2Космическая пыль",
+      "item.demonicblessing.shadow_spec_bar": "Shadowspec Bar",
+      "entity.demonicblessing.pyding": "Pyding",
+      "subtitles.darkincraft": "darkincraft",
+      "item.demonicblessing.blue_gem_big": "§bБольшой водяной гем",
+      "subtitles.dondondondondon": "dondondondondon",
+      "item.demonicblessing.blood_rosa": "§4Кровавая роза",
+      "item.demonicblessing.cosmic_gem_big": "§2Большой космический гем",
+      "advancements.tab.descr": "Welcum!Thank you for playing with me \u003c3",
+      "block.demonicblessing.portal_down": "Portal",
+      "item.demonicblessing.govnoresource": "Игра в Омара:",
+      "subtitles.minipekkadies": "minipekkadies",
+      "subtitles.kaynskill2": "kaynskill2",
+      "item.demonicblessing.lunarian_sword": "Меч лунян",
+      "subtitles.kaynskill1": "kaynskill1",
+      "subtitles.darkinsmeh2": "darkinsmeh2",
+      "item.demonicblessing.shadow_armor_leggings": "§5Теневые Штаны",
+      "item.demonicblessing.bankai": "§5Тэнса Зангецу:Банкай!",
+      "item.demonicblessing.air_gem_big": "§eБольшой воздушный гем",
+      "subtitles.musonopodavitel": "musonopodavitel",
+      "item.demonicblessing.megaflux_tank": "§eMegaflux Tank",
+      "subtitles.bleachfinalsong": "bleachfinalsong",
+      "item.demonicblessing.blue_soul": "Синяя душа",
+      "item.demonicblessing.shadow_armor_boots": "§5Теневые Тапки",
+      "advancements.first_steps.title": "First Steps",
+      "item.demonicblessing.star_armor_boots": "§bШлёпанцы хождения па скрытнаму",
+      "item.demonicblessing.air_gem_small": "§eВоздушный гем",
+      "item.demonicblessing.air_dust": "§eВоздушная пыль",
+      "item.demonicblessing.mamaliga": "Мамалыга со шкварками",
+      "advancements.prepare_final.title": "Это ведь не конец...",
+      "key.demonicblessing.aa": "Сонидо влево",
+      "item.demonicblessing.cooked_meat": "Cooked Humans Flesh",
+      "entity.demonicblessing.fuck_jresko": "Фак Жреско",
+      "item.demonicblessing.krul_tepes": "§4Blood of Krul ?epe?",
+      "advancements.create_zangetsu.title": "Мой старый друг",
+      "item.demonicblessing.konfetka": "Кишинёвская ночь",
+      "item.demonicblessing.red_gem_big": "§4Большой красный гем",
+      "item.demonicblessing.popoo_2": "Игра в Омара:",
+      "subtitles.novayateli": "novayateli",
+      "item.demonicblessing.shadowingot": "Теневая руда",
+      "advancements.astral_step.title": "Astral Step",
+      "block.demonicblessing.medium_chest": "Сундук пакруче))",
+      "subtitles.kaynjokedeath": "kaynjokedeath",
+      "item.demonicblessing.rage_cannabsa_spawn_egg": "Благосклонная Cannabsa Spawn Egg",
+      "item.demonicblessing.broken_frost_mourne": "Лезвие Ледяной Скорби",
+      "effect.darkin_buff": "Мощь Даркина",
+      "item.demonicblessing.berserk_armor_helmet": "Хочу",
+      "qwe_resictansetypoutofworld": "Забудь кнопку чата,бездарь",
+      "item.demonicblessing.posoh": "О§mт§rбитый §mговном §rдеревяннодревесный жэзел ",
+      "death.attack.qwe_resictansetypoutofworld": "\\u0417\\u0430\\u0431\\u0443\\u0434\\u044c \\u043a\\u043d\\u043e\\u043f\\u043a\\u0443 \\u0447\\u0430\\u0442\\u0430,\\u0432\\u044b\\u0431\\u043b\\u044f\\u0434\\u043e\\u043a.F9F9F9F9F9F9F9F9F9F9F9F9F9F9F9F9",
+      "key.demonicblessing.electroteleport": "Телепорт рассекающего вихря",
+      "subtitles.kishki": "kishki",
+      "subtitles.dungeonthomas": "dungeonthomas",
+      "item.demonicblessing.arthas_spawn_egg": "Arthas Spawn Egg",
+      "item.demonicblessing.jadeit": "Жадеит",
+      "subtitles.chaka": "chaka",
+      "item.demonicblessing.achievement": "Achievement",
+      "subtitles.musonopodavitelabsorber": "musonopodavitelabsorber",
+      "item.demonicblessing.adams_apple": "Just a common Apple",
+      "advancements.prepare_final.descr": "Победи Пудинга,но помни,что всегда есть рыба крупнее",
+      "item.demonicblessing.bramma_kuva": "§4Bramma §eKuva",
+      "subtitles.kayncraft": "kayncraft",
+      "subtitles.patanorm": "patanorm",
+      "advancements.hmmm.title": "Ноль,целковый,чекушка...",
+      "item.demonicblessing.final_secret_boss_spawn_egg": "Секретный Пудинг Spawn Egg",
+      "subtitles.strongkayndeathjoke3": "strongkayndeathjoke3",
+      "subtitles.strongkayndeathjoke2": "strongkayndeathjoke2",
+      "subtitles.strongkayndeathjoke4": "strongkayndeathjoke4",
+      "item.demonicblessing.handle_frost_mourne": "Рукоять Ледяной Скорби",
+      "item.demonicblessing.shadow_armor_helmet": "§5Теневой Шлем",
+      "item.demonicblessing.diedi_candito_spawn_egg": "Diedhimself Spawn Egg",
+      "advancements.first_steps.descr": "make your BIG rod to summon your first boss",
+      "entity.demonicblessing.arthas": "Arthas",
+      "entity.demonicblessing.niceclockbigfoot": "NiceClockBigFoot",
+      "subtitles.arrowbramma": "arrowbramma",
+      "block.demonicblessing.shadoworeendblock": "Теневая руда",
+      "advancements.ticket_to_what.descr": "is it squid games lol?-no it\u0027s crab dummy",
+      "block.demonicblessing.chest": "Сундук лоха",
+      "subtitles.ehetenandayo": "ehetenandayo",
+      "key.demonicblessing.otrub": "Быстрое отключение  §bКристалла увеличенной ёмкости",
+      "block.demonicblessing.beam": "Beam",
+      "advancements.tab.title": "Demonic Blessing",
+      "item.demonicblessing.parasha": "Игра в Омара:",
+      "item.demonicblessing.red_gem": "§4Огненный гем",
+      "item.demonicblessing.fuck_jresko_spawn_egg": "Фак Жреско Spawn Egg",
+      "subtitles.invlaugh": "",
+      "item.demonicblessing.chaos_spark": "Chaos Spark",
+      "item.demonicblessing.godlybluesoul": "Божественная Синяя душа",
+      "item.demonicblessing.smert_item": "Smert Item",
+      "item.demonicblessing.star": "Космическая сингулярность",
+      "subtitles.positiibruno": "positiibruno",
+      "item.demonicblessing.ulquiorra_death": "Ulquiorra Death",
+      "entity.demonicblessing.ekumea": "Эхмея",
+      "item.demonicblessing.foss": "Фосфофиллит",
+      "subtitles.chakachakapatapon": "chakachakapatapon",
+      "item.demonicblessing.crystal_11": " Кристалл увеличенной ёмкости-Отключенный",
+      "item.demonicblessing.darkin_scythe": "§4Коса Рааста:Форма Даркина-душегуба",
+      "block.demonicblessing.portal_upp": "Portal",
+      "subtitles.darkinsmeh": "darkinsmeh",
+      "biome.demonicblessing.moonbiome": "Moonbiome",
+      "item.demonicblessing.bilet": "Билет на финальную игру в Омара",
+      "entity.demonicblessing.final_pyding_rage": "Final Pyding Rage",
+      "advancements.fuck_jresco.title": "Скучные ачивки чел...",
+      "entity.demonicblessing.rage_cannabsa": "Благосклонная Cannabsa",
+      "item.demonicblessing.walletx_8": "§bМ§5о§bл§5и§bт§5в§bа",
+      "item.demonicblessing.cannabsa_spawn_egg": "Великолепная Cannabsa Spawn Egg",
+      "subtitles.onsleduyushiy": "onsleduyushiy",
+      "item.demonicblessing.star_armor_helmet": "§bБашка нинзи",
+      "entity.demonicblessing.cannabsa": "Великолепная Cannabsa",
+      "item.demonicblessing.berserk_armor_leggings": "Быть",
+      "block.demonicblessing.gem_forge": "Gem Forge",
+      "advancements.second_step.title": "Second Step",
+      "subtitles.megatrons": "megatrons",
+      "item.demonicblessing.berserk_armor_boots": "Счастливым",
+      "subtitles.rhaastattack": "RhaastAttack",
+      "item.demonicblessing.void_amor_chestplate": "§d§lНаживотник пустоты",
+      "subtitles.don": "don",
+      "subtitles.darkindeath4": "darkindeath4",
+      "effect.bankai_effect": "Банкай!",
+      "effect.musono_podavitel_buff": "Подавление",
+      "subtitles.darkindeath2": "darkindeath2",
+      "subtitles.darkindeath3": "darkindeath3",
+      "subtitles.darkindeath1": "darkindeath1",
+      "subtitles.pokajichego": "pokajichego",
+      "item.demonicblessing.cosmic_gem": "§2Космический гем",
+      "advancements.create_zangetsu.descr": "Создай могучего зангецу!",
+      "subtitles.robotattack1": "robotattack1",
+      "item.demonicblessing.rutil": "Рутил",
+      "subtitles.robotattack2": "robotattack2"
+    },
+    "en_us": {
+      "advancements.smert.descr": "i want to make a pause...",
+      "item.demonicblessing.condencedredsoul": "Condenced Red Soul",
+      "entity.demonicblessing.diedi_candito": "Diedhimself",
+      "subtitles.dungeontomas": "dungeontomas",
+      "item.demonicblessing.goshenit": "Goshenit",
+      "effect.abobochka": "Аааабоба",
+      "item.demonicblessing.shadowzxc": "Shadow bar",
+      "block.demonicblessing.postament_artasa": "Arthas summon",
+      "item.demonicblessing.void_amor_boots": "§d§lLost socks with black holes",
+      "item.demonicblessing.popoo": "Crab game:",
+      "item.demonicblessing.ichigo_sword": "§8Tensa Zangetsu",
+      "block.demonicblessing.nether_star_block": "Netherstar block",
+      "item.demonicblessing.mini_pekka_spawn_egg": "MiniPekka spawn egg",
+      "item.demonicblessing.yellowdiamond": "Yellow diamond",
+      "item.demonicblessing.electriccrystal": "Electro Crystal",
+      "effect.blood_rage": "Кровавая ярость",
+      "subtitles.rhastjoke": "rhastjoke",
+      "item.demonicblessing.water_dust": "§bWater dust",
+      "subtitles.finalbleach": "finalbleach",
+      "item.demonicblessing.berserk_armor_chestplate": "Want",
+      "item.demonicblessing.redsoul": "Red soul",
+      "item.demonicblessing.star_armor_leggings": "§bHockage pantys",
+      "item.demonicblessing.kinovari": "Mercury",
+      "subtitles.weakkayndeathjoke": "weakkayndeathjoke",
+      "item.demonicblessing.red_berill": "Red berill",
+      "item.demonicblessing.frost_mourne": "Frostmourne",
+      "advancements.bankai_achive.descr": "unlock the ultimate power of Zangetsu by killing the boss ,,Diedi Candito,,",
+      "block.demonicblessing.portal": "Portal",
+      "item.demonicblessing.rhaast_scythe": "§6Rhaast\u0027s scythe",
+      "subtitles.patapondonchaka": "patapondonchaka",
+      "item.demonicblessing.ekumea_spawn_egg": "Ekumea Spawn Egg",
+      "subtitles.puncakes": "puncakes",
+      "item.demonicblessing.drumm": "Patapon\u0027s drumm",
+      "item.demonicblessing.musonopodavitel": "Музоно Подавитель",
+      "subtitles.involaugh": "",
+      "item.demonicblessing.void_amor_leggings": "§d§lPantys of Shadow Friend",
+      "advancements.second_step.descr": "keep it up! now lets summon her more powerfull version with black rose",
+      "advancements.death_of_ulquiorra.title": "Oblivion of tactics",
+      "item.demonicblessing.nakonechnik": "Iron onroder",
+      "subtitles.ponponchakachaka": "ponponchakachaka",
+      "item.demonicblessing.palka_testa": "§5§mCredit§2Gem Pouch",
+      "subtitles.rhaastdrops": "rhaastdrops",
+      "item.demonicblessing.moon": "Древняя технология лунян",
+      "effect.kayn_buff": "Мощь Каина",
+      "item.demonicblessing.niceclockbigfoot_spawn_egg": "NiceClockBigFoot Spawn Egg",
+      "subtitles.bleachsongpre": "bleachsongpre",
+      "item.demonicblessing.electrozxc": "§dForge Mistsplitter",
+      "item.demonicblessing.graal": "§eGraal",
+      "item.demonicblessing.secret_boss_spawn": "secretboss spawn",
+      "key.demonicblessing.ww": "Sonido straight",
+      "item.demonicblessing.purple_scythe": "§dКоса §5Каина-§4Бру§bзера",
+      "item.demonicblessing.morganit": "Morganite",
+      "advancements.astral_step.descr": "russian reference,don\u0027t take it to the heart :) Just make dick with star blocks to summon Diedi Candito",
+      "subtitles.sonido": "sonido",
+      "item.demonicblessing.final_pyding_rage_spawn_egg": "Final Pyding Rage Spawn Egg",
+      "item.demonicblessing.wallet": "§bP§5r§bi§5m§bo§5g§be§5m",
+      "item.demonicblessing.mod_1": "§emod from warframe idk how to translate",
+      "item.demonicblessing.mod_2": "§emod from warframe idk how to translate",
+      "item.demonicblessing.mod_3": "§emod from warframe idk how to translate",
+      "advancements.bankai_achive.title": "Bankai!",
+      "subtitles.robotwalking": "robotwalking",
+      "item.demonicblessing.shadow_armor_chestplate": "§5Shadow chestplate",
+      "entity.demonicblessing.mini_pekka": "mini pekka",
+      "item.demonicblessing.blue_gem": "§bWater gem",
+      "item.demonicblessing.fresh_meat": "Humans Flesh",
+      "block.demonicblessing.moonblock": "Moonstone",
+      "item.demonicblessing.builders_forucs": "§eBuilder\u0027s §4Focus",
+      "item.demonicblessing.kayn_scythe": "§bKayn\u0027s scythe",
+      "key.demonicblessing.dd": "Sonido to right ",
+      "subtitles.bankai": "bankai",
+      "subtitles.chembolshevrag": "chembolshevrag",
+      "subtitles.ponpataponpata": "ponpataponpata",
+      "subtitles.ponponpatapon": "ponponpatapon",
+      "subtitles.darkinattack1": "darkinattack1",
+      "block.demonicblessing.shadoworeblock": "Shadow ore",
+      "subtitles.darkinattack2": "darkinattack2",
+      "subtitles.darkinattack3": "darkinattack3",
+      "subtitles.darkinattack4": "darkinattack4",
+      "item.demonicblessing.crystal_1": "Crystal of increased capacity",
+      "subtitles.chestopening": "chestopening",
+      "item.demonicblessing.crystal_3": "Legendary crystal of primordial energy",
+      "item.demonicblessing.stokholm": "I don\u0027t have ideas",
+      "item.demonicblessing.crystal_2": "Powerd by what? crystal i forgot...(just restores energy after ult)",
+      "item.demonicblessing.rosa": "§0Black rose",
+      "item.demonicblessing.beniotit": "Benionit",
+      "item.demonicblessing.fuck_jresko_summon": "Wuduu doll Fuck Jresko",
+      "item.demonicblessing.pyding_spawn_egg": "Pyding Spawn Egg",
+      "advancements.smert.title": "Fck,I killed myself  ",
+      "item.demonicblessing.flux": "§eFlux",
+      "item.demonicblessing.achievement_2": "Achievement 2",
+      "advancements.hmmm.descr": "Reveal the secret combination of items and get your ass burned ",
+      "itemGroup.tabdemonic_blessing": "§5Demonic Blessing",
+      "item.demonicblessing.amethyst": "§4P§r§6i§em§2o§ar§bd§3i§1a§9l §dA§5m§fe§4t§ch§6y§es§2t",
+      "subtitles.megatron": "megatron",
+      "subtitles.pata": "pata",
+      "advancements.death_of_ulquiorra.descr": "WHAT ON THE EARTH?HOW AM I SUPPOSED TO KILL RAGED PYDING?",
+      "subtitles.shotbramma": "shotbramma",
+      "item.demonicblessing.void_amor_helmet": "§d§lVoid onheader",
+      "subtitles.stkaynattack3": "stkaynattack3",
+      "item.demonicblessing.almaz": "Diamond(the real one)",
+      "item.demonicblessing.fire_dust": "§4Fire dust",
+      "subtitles.stkaynattack4": "stkaynattack4",
+      "item.demonicblessing.condencedbluesoul": "Condensed blue soul",
+      "subtitles.stkaynattack1": "stkaynattack1",
+      "subtitles.stkaynattack2": "stkaynattack2",
+      "item.demonicblessing.star_armor_chestplate": "§bNinja-like outfit",
+      "subtitles.robotdies": "robotdies",
+      "subtitles.dondonchakachaka": "dondonchakachaka",
+      "entity.demonicblessing.final_secret_boss": "Secret Pyding",
+      "biome.demonicblessing.void_biome": "OblivionBiome",
+      "item.demonicblessing.godlyredsoul": "Devilish red soul",
+      "effect.usilenie": "Power UP",
+      "subtitles.pon": "pon",
+      "subtitles.patapatapatapon": "patapatapatapon",
+      "item.demonicblessing.kniga": "Mudresistors nowell",
+      "item.demonicblessing.brynza": "Brinza",
+      "advancements.fuck_jresco.descr": "shut up man idc ",
+      "key.demonicblessing.ss": "Sonido back",
+      "advancements.ticket_to_what.title": "Ticket to what?",
+      "item.demonicblessing.cosmic_dust": "§2Cosmic dust",
+      "item.demonicblessing.shadow_spec_bar": "Shadowspec Bar",
+      "entity.demonicblessing.pyding": "Pyding",
+      "subtitles.darkincraft": "darkincraft",
+      "item.demonicblessing.blue_gem_big": "§bBig water gem",
+      "subtitles.dondondondondon": "dondondondondon",
+      "item.demonicblessing.blood_rosa": "§4Blood rose",
+      "item.demonicblessing.cosmic_gem_big": "§2Big cosmic gem",
+      "advancements.tab.descr": "Welcum!Thank you for playing with me \u003c3",
+      "block.demonicblessing.portal_down": "Portal",
+      "item.demonicblessing.govnoresource": "Crab game:",
+      "subtitles.minipekkadies": "minipekkadies",
+      "subtitles.kaynskill2": "kaynskill2",
+      "item.demonicblessing.lunarian_sword": "Lunarian sword",
+      "subtitles.kaynskill1": "kaynskill1",
+      "subtitles.darkinsmeh2": "darkinsmeh2",
+      "item.demonicblessing.shadow_armor_leggings": "§5Shadow trousers",
+      "item.demonicblessing.bankai": "§5Tensa Zangetsu:Bankai!",
+      "item.demonicblessing.air_gem_big": "§eBig air gem",
+      "subtitles.musonopodavitel": "musonopodavitel",
+      "item.demonicblessing.megaflux_tank": "§eMegaflux Tank",
+      "subtitles.bleachfinalsong": "bleachfinalsong",
+      "item.demonicblessing.blue_soul": "Blue soul",
+      "item.demonicblessing.shadow_armor_boots": "§5Shadow slippers",
+      "advancements.first_steps.title": "First Steps",
+      "item.demonicblessing.star_armor_boots": "§bStep-ins for sneaking undetected ",
+      "item.demonicblessing.air_gem_small": "§eAir gem",
+      "item.demonicblessing.air_dust": "§eAir dust",
+      "item.demonicblessing.mamaliga": "Mamaliga with shkvarki ",
+      "advancements.prepare_final.title": "It can\u0027t be end yet...",
+      "key.demonicblessing.aa": "Sonido to left",
+      "item.demonicblessing.cooked_meat": "Cooked Humans Flesh",
+      "entity.demonicblessing.fuck_jresko": "Fuck Jresco",
+      "item.demonicblessing.krul_tepes": "§4Blood of Krul ?epe?",
+      "advancements.create_zangetsu.title": "My olf friend",
+      "item.demonicblessing.konfetka": "Kishineu nights",
+      "item.demonicblessing.red_gem_big": "§4Big fire gem",
+      "item.demonicblessing.popoo_2": "Crab game:",
+      "subtitles.novayateli": "novayateli",
+      "item.demonicblessing.shadowingot": "Shadow ore",
+      "advancements.astral_step.title": "Astral Step",
+      "block.demonicblessing.medium_chest": "More cooler daniel))",
+      "subtitles.kaynjokedeath": "kaynjokedeath",
+      "item.demonicblessing.rage_cannabsa_spawn_egg": "God Blessed Cannabsa Spawn Egg",
+      "item.demonicblessing.broken_frost_mourne": "Frostmourne part",
+      "effect.darkin_buff": "Мощь Даркина",
+      "item.demonicblessing.berserk_armor_helmet": "I just",
+      "qwe_resictansetypoutofworld": "",
+      "item.demonicblessing.posoh": "Rod",
+      "death.attack.qwe_resictansetypoutofworld": "",
+      "key.demonicblessing.electroteleport": "Forge Mistsplitters teleport",
+      "subtitles.kishki": "kishki",
+      "subtitles.dungeonthomas": "dungeonthomas",
+      "item.demonicblessing.arthas_spawn_egg": "Arthas Spawn Egg",
+      "item.demonicblessing.jadeit": "Jadeit",
+      "subtitles.chaka": "chaka",
+      "item.demonicblessing.achievement": "Achievement",
+      "subtitles.musonopodavitelabsorber": "musonopodavitelabsorber",
+      "item.demonicblessing.adams_apple": "Just a common Apple",
+      "advancements.prepare_final.descr": "win the battle against Pyding but keep in mind that there is always a bigger fish",
+      "item.demonicblessing.bramma_kuva": "§4Bramma §eKuva",
+      "subtitles.kayncraft": "kayncraft",
+      "subtitles.patanorm": "patanorm",
+      "advancements.hmmm.title": "Mad science",
+      "item.demonicblessing.final_secret_boss_spawn_egg": "Secret Pyding Spawn Egg",
+      "subtitles.strongkayndeathjoke3": "strongkayndeathjoke3",
+      "subtitles.strongkayndeathjoke2": "strongkayndeathjoke2",
+      "subtitles.strongkayndeathjoke4": "strongkayndeathjoke4",
+      "item.demonicblessing.handle_frost_mourne": "Frostmourne handle",
+      "item.demonicblessing.shadow_armor_helmet": "§5Shadow helm",
+      "item.demonicblessing.diedi_candito_spawn_egg": "Diedhimself Spawn Egg",
+      "advancements.first_steps.descr": "make your BIG rod to summon your first boss",
+      "entity.demonicblessing.arthas": "Arthas",
+      "entity.demonicblessing.niceclockbigfoot": "NiceClockBigFoot",
+      "subtitles.arrowbramma": "arrowbramma",
+      "block.demonicblessing.shadoworeendblock": "Shadow ore",
+      "advancements.ticket_to_what.descr": "is it squid games lol?-no it\u0027s crab dummy",
+      "block.demonicblessing.chest": "Chest of loser",
+      "subtitles.ehetenandayo": "ehetenandayo",
+      "key.demonicblessing.otrub": "Fast turn off of§b Crystall of increaced capacity",
+      "block.demonicblessing.beam": "Beam",
+      "advancements.tab.title": "Demonic Blessing",
+      "item.demonicblessing.parasha": "Crab game:",
+      "item.demonicblessing.red_gem": "§4Fire gem",
+      "item.demonicblessing.fuck_jresko_spawn_egg": "Fuck Jresco Spawn Egg",
+      "subtitles.invlaugh": "",
+      "item.demonicblessing.chaos_spark": "Chaos Spark",
+      "item.demonicblessing.godlybluesoul": "Godly blue soul",
+      "item.demonicblessing.smert_item": "Smert Item",
+      "item.demonicblessing.star": "Cosmic singularity",
+      "subtitles.positiibruno": "positiibruno",
+      "item.demonicblessing.ulquiorra_death": "Ulquiorra Death",
+      "entity.demonicblessing.ekumea": "Akumea",
+      "item.demonicblessing.foss": "Foss",
+      "subtitles.chakachakapatapon": "chakachakapatapon",
+      "item.demonicblessing.crystal_11": "Crystal of increaced capacity-turned off",
+      "item.demonicblessing.darkin_scythe": "§4Rhaast\u0027s scythe",
+      "block.demonicblessing.portal_upp": "Portal",
+      "subtitles.darkinsmeh": "darkinsmeh",
+      "biome.demonicblessing.moonbiome": "Moonbiome",
+      "item.demonicblessing.bilet": "Билет на финальную игру в Омара",
+      "entity.demonicblessing.final_pyding_rage": "Final Pyding Rage",
+      "advancements.fuck_jresco.title": "Boring advancements dude",
+      "entity.demonicblessing.rage_cannabsa": "God Blessed Cannabsa",
+      "item.demonicblessing.walletx_8": "§bW§5i§bs§5h",
+      "item.demonicblessing.cannabsa_spawn_egg": "Incredible Cannabsa Spawn Egg",
+      "subtitles.onsleduyushiy": "onsleduyushiy",
+      "item.demonicblessing.star_armor_helmet": "§bNoodle of ninja",
+      "entity.demonicblessing.cannabsa": "Incredible Cannabsa",
+      "item.demonicblessing.berserk_armor_leggings": "To be",
+      "block.demonicblessing.gem_forge": "Gem Forge",
+      "advancements.second_step.title": "Second Step",
+      "subtitles.megatrons": "megatrons",
+      "item.demonicblessing.berserk_armor_boots": "Happy",
+      "subtitles.rhaastattack": "RhaastAttack",
+      "item.demonicblessing.void_amor_chestplate": "§d§lOnstomacher of void",
+      "subtitles.don": "don",
+      "subtitles.darkindeath4": "darkindeath4",
+      "effect.bankai_effect": "Bankai!",
+      "effect.musono_podavitel_buff": "Absorbtion",
+      "subtitles.darkindeath2": "darkindeath2",
+      "subtitles.darkindeath3": "darkindeath3",
+      "subtitles.darkindeath1": "darkindeath1",
+      "subtitles.pokajichego": "pokajichego",
+      "item.demonicblessing.cosmic_gem": "§2Cosmic gem",
+      "advancements.create_zangetsu.descr": "create mighty Zangetsu",
+      "subtitles.robotattack1": "robotattack1",
+      "item.demonicblessing.rutil": "Rutil",
+      "subtitles.robotattack2": "robotattack2"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "QWE_VALERA",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "demonicblessing",
+    "modName": "DemonicBlessing",
+    "version": "1.0.0",
+    "author": "Pyding, diedhimself",
+    "websiteURL": "https://mcreator.net",
+    "license": "Custom license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.demonicblessing",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

@@ -1,0 +1,61 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ninja_helm",
+    "enableBody": true,
+    "textureBody": "ninja_armor",
+    "enableLeggings": true,
+    "textureLeggings": "ninja_pants",
+    "enableBoots": true,
+    "textureBoots": "ninja_boots",
+    "onHelmetTick": {
+      "name": "StarArmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "armorTextureFile": "pustishka",
+    "helmetName": "§bБашка нинзи",
+    "bodyName": "§bНинзёвый прикидон",
+    "leggingsName": "§bГамаши хокаге",
+    "bootsName": "§bШлёпанцы хождения па скрытнаму",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 0,
+    "damageValueHelmet": 5,
+    "damageValueBody": 5,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 5,
+    "enchantability": 0,
+    "toughness": 0.0,
+    "knockbackResistance": 2.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

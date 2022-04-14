@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demonicblessing:blocks/bedrock_stone",
+    "up": "demonicblessing:blocks/bedrock_stone",
+    "north": "demonicblessing:blocks/bedrock_stone",
+    "east": "demonicblessing:blocks/bedrock_stone",
+    "south": "demonicblessing:blocks/bedrock_stone",
+    "west": "demonicblessing:blocks/bedrock_stone",
+    "particle": "demonicblessing:blocks/bedrock_stone"
+  }
+}

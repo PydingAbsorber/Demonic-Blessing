@@ -1,0 +1,7 @@
+{
+  "parent": "demonicblessing:custom/kaynmodel2",
+  "textures": {
+    "0": "demonicblessing:blocks/texturekayn",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

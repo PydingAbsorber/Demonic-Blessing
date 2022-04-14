@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:yellowdiamond"
+    },
+    "1": {
+      "item": "demonicblessing:electriccrystal"
+    },
+    "2": {
+      "item": "demonicblessing:morganit"
+    },
+    "3": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "4": {
+      "item": "demonicblessing:bankai"
+    },
+    "5": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "6": {
+      "item": "demonicblessing:beniotit"
+    },
+    "7": {
+      "item": "demonicblessing:foss"
+    },
+    "8": {
+      "item": "demonicblessing:rutil"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:electrozxc",
+    "count": 1
+  }
+}

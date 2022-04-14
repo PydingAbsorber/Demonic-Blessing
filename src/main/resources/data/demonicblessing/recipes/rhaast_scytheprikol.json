@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "demonicblessing:popoo"
+    },
+    "3": {
+      "item": "demonicblessing:parasha"
+    },
+    "4": {
+      "item": "minecraft:dragon_breath"
+    },
+    "5": {
+      "item": "demonicblessing:popoo_2"
+    },
+    "7": {
+      "item": "demonicblessing:govnoresource"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:rhaast_scythe",
+    "count": 1
+  }
+}

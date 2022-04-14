@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "demonicblessing:ulquiorra_death"
+    },
+    "title": {
+      "translate": "advancements.death_of_ulquiorra.title"
+    },
+    "description": {
+      "translate": "advancements.death_of_ulquiorra.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "death_of_ulquiorra": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "demonicblessing:hmmm"
+}

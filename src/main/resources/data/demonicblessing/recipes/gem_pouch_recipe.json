@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "1": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "2": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "3": {
+      "item": "minecraft:green_wool"
+    },
+    "4": {
+      "item": "demonicblessing:cosmic_dust"
+    },
+    "5": {
+      "item": "minecraft:green_wool"
+    },
+    "6": {
+      "item": "minecraft:green_wool"
+    },
+    "7": {
+      "item": "minecraft:green_wool"
+    },
+    "8": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:palka_testa",
+    "count": 1
+  }
+}

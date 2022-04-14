@@ -1,0 +1,434 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:AirGemSmall"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #0",
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:AirGemSmall"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #1",
+          "x": 168,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:critdamage>",
+          "color": {
+            "value": -10092289,
+            "falpha": 0.0
+          },
+          "name": "<VAR:critdamage>",
+          "x": 114,
+          "y": -1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:critchance>",
+          "color": {
+            "value": -13382401,
+            "falpha": 0.0
+          },
+          "name": "<VAR:critchance>",
+          "x": 114,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Crit Damage",
+          "color": {
+            "value": -10092289,
+            "falpha": 0.0
+          },
+          "name": "Crit Damage",
+          "x": 51,
+          "y": -1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Crit Chance",
+          "color": {
+            "value": -13382401,
+            "falpha": 0.0
+          },
+          "name": "Crit Chance",
+          "x": 51,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Quellement:",
+          "color": {
+            "value": -10092493,
+            "falpha": 0.0
+          },
+          "name": "Quellement:",
+          "x": 258,
+          "y": -1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Hp regen",
+          "color": {
+            "value": -16724941,
+            "falpha": 0.0
+          },
+          "name": "Hp regen",
+          "x": 258,
+          "y": 17
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:maxhp>",
+          "color": {
+            "value": -10092493,
+            "falpha": 0.0
+          },
+          "name": "<VAR:maxhp>",
+          "x": 321,
+          "y": -1
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:hpregen>",
+          "color": {
+            "value": -16724941,
+            "falpha": 0.0
+          },
+          "name": "<VAR:hpregen>",
+          "x": 312,
+          "y": 17
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:AirGemBig"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #2",
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:BlueGem"
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #3",
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:BlueGem"
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #4",
+          "x": 168,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:BlueGemBig"
+          },
+          "color": {
+            "value": -16776961,
+            "falpha": 0.0
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #5",
+          "x": 150,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:RedGem"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #6",
+          "x": 240,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:RedGem"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #7",
+          "x": 258,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:RedGemBig"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #8",
+          "x": 258,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CosmicGem"
+          },
+          "color": {
+            "value": -16751053,
+            "falpha": 0.0
+          },
+          "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #9",
+          "x": 258,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CosmicGem"
+          },
+          "color": {
+            "value": -16751053,
+            "falpha": 0.0
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #10",
+          "x": 240,
+          "y": 98
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CosmicGemBig"
+          },
+          "color": {
+            "value": -16751053,
+            "falpha": 0.0
+          },
+          "id": 11,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "name": "Slot #11",
+          "x": 258,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Power Rank:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Power Rank:",
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:powerrank>",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:powerrank>",
+          "x": 186,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1280 Max",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1280 Max",
+          "x": 186,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Refresh",
+          "onClick": {
+            "name": "GemSocketsWhileThisGUIIsOpenTick"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Refresh",
+          "x": 184,
+          "y": 96
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "GemSocketsThisGUIIsOpened"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

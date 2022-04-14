@@ -1,0 +1,7 @@
+{
+  "parent": "demonicblessing:custom/bankaimodel1",
+  "textures": {
+    "0": "demonicblessing:blocks/texture111",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

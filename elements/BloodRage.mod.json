@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": " ровава€ €рость",
+    "icon": "abobaa1.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:air_dust"
+    },
+    "1": {
+      "item": "demonicblessing:air_dust"
+    },
+    "2": {
+      "item": "demonicblessing:air_dust"
+    },
+    "3": {
+      "item": "demonicblessing:air_dust"
+    },
+    "4": {
+      "item": "demonicblessing:air_dust"
+    },
+    "5": {
+      "item": "demonicblessing:air_dust"
+    },
+    "6": {
+      "item": "demonicblessing:air_dust"
+    },
+    "7": {
+      "item": "demonicblessing:air_dust"
+    },
+    "8": {
+      "item": "demonicblessing:air_dust"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:air_gem_big",
+    "count": 1
+  }
+}

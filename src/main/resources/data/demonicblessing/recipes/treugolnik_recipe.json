@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pufferfish_bucket"
+    },
+    "1": {
+      "item": "minecraft:salmon_bucket"
+    },
+    "2": {
+      "item": "minecraft:cod_bucket"
+    },
+    "3": {
+      "item": "minecraft:tropical_fish_bucket"
+    },
+    "4": {
+      "item": "demonicblessing:mamaliga"
+    },
+    "5": {
+      "item": "demonicblessing:konfetka"
+    },
+    "6": {
+      "item": "demonicblessing:drumm"
+    },
+    "7": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "8": {
+      "item": "minecraft:music_disc_pigstep"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:popoo",
+    "count": 1
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AirDust"
+      },
+      {
+        "value": "CUSTOM:AirDust"
+      },
+      {
+        "value": "CUSTOM:AirDust"
+      },
+      {
+        "value": "CUSTOM:AirDust"
+      },
+      {
+        "value": "CUSTOM:AirDust"
+      },
+      {
+        "value": "CUSTOM:AirDust"
+      },
+      {
+        "value": "CUSTOM:AirDust"
+      },
+      {
+        "value": "CUSTOM:AirDust"
+      },
+      {
+        "value": "CUSTOM:AirDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AirGemBig"
+    },
+    "name": "big_air_gem_craft",
+    "namespace": "mod"
+  }
+}

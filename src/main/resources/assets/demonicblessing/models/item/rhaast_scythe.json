@@ -1,0 +1,13 @@
+{
+  "parent": "demonicblessing:custom/rhaast_scythe1",
+  "textures": {
+    "0": "demonicblessing:blocks/tex1",
+    "1": "demonicblessing:blocks/tex2",
+    "2": "demonicblessing:blocks/tex3",
+    "3": "demonicblessing:blocks/texture4",
+    "4": "demonicblessing:blocks/texture5",
+    "5": "demonicblessing:blocks/texture6",
+    "6": "demonicblessing:blocks/texture7",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "demonicblessing:custom/brammakuva",
+  "textures": {
+    "0": "demonicblessing:blocks/brammakuvapattern",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

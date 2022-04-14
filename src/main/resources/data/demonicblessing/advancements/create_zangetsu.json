@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "demonicblessing:ichigo_sword"
+    },
+    "title": {
+      "translate": "advancements.create_zangetsu.title"
+    },
+    "description": {
+      "translate": "advancements.create_zangetsu.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "create_zangetsu": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "demonicblessing:second_step"
+}

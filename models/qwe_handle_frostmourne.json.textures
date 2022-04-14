@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "qwe_handle",
+        "1": "qwe_details"
+      },
+      "name": "default"
+    }
+  }
+}

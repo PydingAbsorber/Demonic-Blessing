@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_meat",
+    "customModelName": "Normal",
+    "name": "Cooked Humans Flesh",
+    "rarity": "RARE",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 16,
+    "saturation": 10.0,
+    "eatingSpeed": 20,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

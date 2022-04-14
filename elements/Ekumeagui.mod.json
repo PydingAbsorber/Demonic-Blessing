@@ -1,0 +1,305 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Foss"
+          },
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 240,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 276,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "—Í–¿ÙÚË“‹",
+          "onClick": {
+            "name": "Butt"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "—Í–¿ÙÚË“‹",
+          "x": 177,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "strelka.png",
+          "use1Xscale": false,
+          "name": "strelka.png",
+          "x": 258,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Morganit"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 213,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Goshenit"
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Rutil"
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 159,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:RedBerill"
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 132,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Beniotit"
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #6",
+          "x": 240,
+          "y": 35
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Kinovari"
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 213,
+          "y": 35
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Jadeit"
+          },
+          "id": 8,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #8",
+          "x": 186,
+          "y": 35
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Almaz"
+          },
+          "id": 9,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #9",
+          "x": 159,
+          "y": 35
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Yellowdiamond"
+          },
+          "id": 10,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #10",
+          "x": 132,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "foss.png",
+          "use1Xscale": true,
+          "name": "foss.png",
+          "x": 366,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "morganit.png",
+          "use1Xscale": true,
+          "name": "morganit.png",
+          "x": 285,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "goshelit.png",
+          "use1Xscale": true,
+          "name": "goshelit.png",
+          "x": 204,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rutil.png",
+          "use1Xscale": true,
+          "name": "rutil.png",
+          "x": 123,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "berill.png",
+          "use1Xscale": true,
+          "name": "berill.png",
+          "x": 33,
+          "y": 224
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "benionit.png",
+          "use1Xscale": true,
+          "name": "benionit.png",
+          "x": 357,
+          "y": -46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "rtuti.png",
+          "use1Xscale": true,
+          "name": "rtuti.png",
+          "x": 285,
+          "y": -46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jadeit.png",
+          "use1Xscale": true,
+          "name": "jadeit.png",
+          "x": 204,
+          "y": -46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "almaz.png",
+          "use1Xscale": true,
+          "name": "almaz.png",
+          "x": 123,
+          "y": -46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "jeltiy_almaz.png",
+          "use1Xscale": true,
+          "name": "jeltiy_almaz.png",
+          "x": 33,
+          "y": -37
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

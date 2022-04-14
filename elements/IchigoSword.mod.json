@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "aaa",
+    "customModelName": "modelichigosword:default",
+    "name": "§8Тэнса Зангецу",
+    "specialInfo": [
+      "§7Достойнейший из тысячи дзанпакто"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 1.5,
+    "enchantability": 0,
+    "damageVsEntity": 48.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "IchigoAir"
+    },
+    "onCrafted": {
+      "name": "IchigoSwordItemIsCraftedsmelted"
+    },
+    "onEntityHitWith": {
+      "name": "IchigoSwordLivingEntityIsHitWithTool"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Popoo"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Parasha"
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": "CUSTOM:Popoo2"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Govnoresource"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RhaastScythe"
+    },
+    "name": "rhaast_scytheprikol",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "1": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "2": {
+      "item": "minecraft:cooked_beef"
+    },
+    "3": {
+      "item": "minecraft:beetroot_soup"
+    },
+    "4": {
+      "item": "minecraft:milk_bucket"
+    },
+    "5": {
+      "item": "demonicblessing:brynza"
+    },
+    "6": {
+      "item": "minecraft:egg"
+    },
+    "7": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:mamaliga",
+    "count": 1
+  }
+}

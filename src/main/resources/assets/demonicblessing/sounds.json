@@ -1,0 +1,651 @@
+{
+  "rhaastattack": {
+    "category": "block",
+    "subtitle": "subtitles.rhaastattack",
+    "sounds": [
+      {
+        "name": "demonicblessing:rhastattack",
+        "stream": false
+      }
+    ]
+  },
+  "rhaastdrops": {
+    "category": "block",
+    "subtitle": "subtitles.rhaastdrops",
+    "sounds": [
+      {
+        "name": "demonicblessing:rhaastdrops",
+        "stream": false
+      }
+    ]
+  },
+  "darkincraft": {
+    "category": "neutral",
+    "subtitle": "subtitles.darkincraft",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkincraft",
+        "stream": false
+      }
+    ]
+  },
+  "kayncraft": {
+    "category": "block",
+    "subtitle": "subtitles.kayncraft",
+    "sounds": [
+      {
+        "name": "demonicblessing:untitled",
+        "stream": false
+      }
+    ]
+  },
+  "kaynjokedeath": {
+    "category": "block",
+    "subtitle": "subtitles.kaynjokedeath",
+    "sounds": [
+      {
+        "name": "demonicblessing:kaynjokedeath",
+        "stream": false
+      }
+    ]
+  },
+  "pokajichego": {
+    "category": "block",
+    "subtitle": "subtitles.pokajichego",
+    "sounds": [
+      {
+        "name": "demonicblessing:pokajichego",
+        "stream": false
+      }
+    ]
+  },
+  "kishki": {
+    "category": "block",
+    "subtitle": "subtitles.kishki",
+    "sounds": [
+      {
+        "name": "demonicblessing:kishkinaruju",
+        "stream": false
+      }
+    ]
+  },
+  "chembolshevrag": {
+    "category": "block",
+    "subtitle": "subtitles.chembolshevrag",
+    "sounds": [
+      {
+        "name": "demonicblessing:chembolshevrag",
+        "stream": false
+      }
+    ]
+  },
+  "onsleduyushiy": {
+    "category": "block",
+    "subtitle": "subtitles.onsleduyushiy",
+    "sounds": [
+      {
+        "name": "demonicblessing:on_sleduyushiy",
+        "stream": false
+      }
+    ]
+  },
+  "novayateli": {
+    "category": "block",
+    "subtitle": "subtitles.novayateli",
+    "sounds": [
+      {
+        "name": "demonicblessing:novayateli",
+        "stream": false
+      }
+    ]
+  },
+  "darkindeath2": {
+    "category": "block",
+    "subtitle": "subtitles.darkindeath2",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkindeath2",
+        "stream": false
+      }
+    ]
+  },
+  "darkindeath1": {
+    "category": "block",
+    "subtitle": "subtitles.darkindeath1",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkindeath1",
+        "stream": false
+      }
+    ]
+  },
+  "darkindeath3": {
+    "category": "block",
+    "subtitle": "subtitles.darkindeath3",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkindeath3",
+        "stream": false
+      }
+    ]
+  },
+  "darkindeath4": {
+    "category": "block",
+    "subtitle": "subtitles.darkindeath4",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkindeath4",
+        "stream": false
+      }
+    ]
+  },
+  "darkinattack1": {
+    "category": "block",
+    "subtitle": "subtitles.darkinattack1",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkinattack1",
+        "stream": false
+      }
+    ]
+  },
+  "darkinattack2": {
+    "category": "block",
+    "subtitle": "subtitles.darkinattack2",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkinattack2",
+        "stream": false
+      }
+    ]
+  },
+  "darkinattack3": {
+    "category": "block",
+    "subtitle": "subtitles.darkinattack3",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkinattack3",
+        "stream": false
+      }
+    ]
+  },
+  "darkinattack4": {
+    "category": "block",
+    "subtitle": "subtitles.darkinattack4",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkinattack4",
+        "stream": false
+      }
+    ]
+  },
+  "strongkayndeathjoke2": {
+    "category": "block",
+    "subtitle": "subtitles.strongkayndeathjoke2",
+    "sounds": [
+      {
+        "name": "demonicblessing:strongkayndeathjoke2",
+        "stream": false
+      }
+    ]
+  },
+  "strongkayndeathjoke3": {
+    "category": "block",
+    "subtitle": "subtitles.strongkayndeathjoke3",
+    "sounds": [
+      {
+        "name": "demonicblessing:strongkayndeathjoke3",
+        "stream": false
+      }
+    ]
+  },
+  "strongkayndeathjoke4": {
+    "category": "block",
+    "subtitle": "subtitles.strongkayndeathjoke4",
+    "sounds": [
+      {
+        "name": "demonicblessing:strongkayndeathjoke4",
+        "stream": false
+      }
+    ]
+  },
+  "weakkayndeathjoke": {
+    "category": "block",
+    "subtitle": "subtitles.weakkayndeathjoke",
+    "sounds": [
+      {
+        "name": "demonicblessing:weakkayndeathjoke",
+        "stream": false
+      }
+    ]
+  },
+  "stkaynattack1": {
+    "category": "block",
+    "subtitle": "subtitles.stkaynattack1",
+    "sounds": [
+      {
+        "name": "demonicblessing:stkaynattack1",
+        "stream": false
+      }
+    ]
+  },
+  "stkaynattack2": {
+    "category": "block",
+    "subtitle": "subtitles.stkaynattack2",
+    "sounds": [
+      {
+        "name": "demonicblessing:stkaynattack2",
+        "stream": false
+      }
+    ]
+  },
+  "stkaynattack3": {
+    "category": "block",
+    "subtitle": "subtitles.stkaynattack3",
+    "sounds": [
+      {
+        "name": "demonicblessing:stkaynattack3",
+        "stream": false
+      }
+    ]
+  },
+  "stkaynattack4": {
+    "category": "block",
+    "subtitle": "subtitles.stkaynattack4",
+    "sounds": [
+      {
+        "name": "demonicblessing:stkaynattack4",
+        "stream": false
+      }
+    ]
+  },
+  "ehetenandayo": {
+    "category": "block",
+    "subtitle": "subtitles.ehetenandayo",
+    "sounds": [
+      {
+        "name": "demonicblessing:ehe_te_nandayo",
+        "stream": false
+      }
+    ]
+  },
+  "darkinsmeh": {
+    "category": "block",
+    "subtitle": "subtitles.darkinsmeh",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkinlaugh",
+        "stream": false
+      }
+    ]
+  },
+  "darkinsmeh2": {
+    "category": "block",
+    "subtitle": "subtitles.darkinsmeh2",
+    "sounds": [
+      {
+        "name": "demonicblessing:darkinsmeh2",
+        "stream": false
+      }
+    ]
+  },
+  "kaynskill1": {
+    "category": "block",
+    "subtitle": "subtitles.kaynskill1",
+    "sounds": [
+      {
+        "name": "demonicblessing:kaynskill1",
+        "stream": false
+      }
+    ]
+  },
+  "kaynskill2": {
+    "category": "block",
+    "subtitle": "subtitles.kaynskill2",
+    "sounds": [
+      {
+        "name": "demonicblessing:kaynskill2",
+        "stream": false
+      }
+    ]
+  },
+  "patapondonchaka": {
+    "category": "block",
+    "subtitle": "subtitles.patapondonchaka",
+    "sounds": [
+      {
+        "name": "demonicblessing:patapondonchaka",
+        "stream": false
+      }
+    ]
+  },
+  "ponponchakachaka": {
+    "category": "block",
+    "subtitle": "subtitles.ponponchakachaka",
+    "sounds": [
+      {
+        "name": "demonicblessing:ponponchakachaka",
+        "stream": false
+      }
+    ]
+  },
+  "ponponpatapon": {
+    "category": "block",
+    "subtitle": "subtitles.ponponpatapon",
+    "sounds": [
+      {
+        "name": "demonicblessing:ponponpatapon",
+        "stream": false
+      }
+    ]
+  },
+  "dondonchakachaka": {
+    "category": "block",
+    "subtitle": "subtitles.dondonchakachaka",
+    "sounds": [
+      {
+        "name": "demonicblessing:dondonchakachaka",
+        "stream": false
+      }
+    ]
+  },
+  "dondondondondon": {
+    "category": "block",
+    "subtitle": "subtitles.dondondondondon",
+    "sounds": [
+      {
+        "name": "demonicblessing:dondondondondon",
+        "stream": false
+      }
+    ]
+  },
+  "pon": {
+    "category": "block",
+    "subtitle": "subtitles.pon",
+    "sounds": [
+      {
+        "name": "demonicblessing:pon",
+        "stream": false
+      }
+    ]
+  },
+  "don": {
+    "category": "block",
+    "subtitle": "subtitles.don",
+    "sounds": [
+      {
+        "name": "demonicblessing:don",
+        "stream": false
+      }
+    ]
+  },
+  "chaka": {
+    "category": "block",
+    "subtitle": "subtitles.chaka",
+    "sounds": [
+      {
+        "name": "demonicblessing:chaka",
+        "stream": false
+      }
+    ]
+  },
+  "pata": {
+    "category": "block",
+    "subtitle": "subtitles.pata",
+    "sounds": [
+      {
+        "name": "demonicblessing:pata",
+        "stream": false
+      }
+    ]
+  },
+  "patanorm": {
+    "category": "block",
+    "subtitle": "subtitles.patanorm",
+    "sounds": [
+      {
+        "name": "demonicblessing:patanorm",
+        "stream": false
+      }
+    ]
+  },
+  "ponpataponpata": {
+    "category": "block",
+    "subtitle": "subtitles.ponpataponpata",
+    "sounds": [
+      {
+        "name": "demonicblessing:ponpataponpata",
+        "stream": false
+      }
+    ]
+  },
+  "patapatapatapon": {
+    "category": "block",
+    "subtitle": "subtitles.patapatapatapon",
+    "sounds": [
+      {
+        "name": "demonicblessing:patapatapatapon",
+        "stream": false
+      }
+    ]
+  },
+  "chakachakapatapon": {
+    "category": "block",
+    "subtitle": "subtitles.chakachakapatapon",
+    "sounds": [
+      {
+        "name": "demonicblessing:chakachakapatapon",
+        "stream": false
+      }
+    ]
+  },
+  "rhastjoke": {
+    "category": "neutral",
+    "subtitle": "subtitles.rhastjoke",
+    "sounds": [
+      {
+        "name": "demonicblessing:jokekayn",
+        "stream": false
+      }
+    ]
+  },
+  "dungeontomas": {
+    "category": "block",
+    "subtitle": "subtitles.dungeontomas",
+    "sounds": [
+      {
+        "name": "demonicblessing:dungeontomas",
+        "stream": false
+      }
+    ]
+  },
+  "positiibruno": {
+    "category": "block",
+    "subtitle": "subtitles.positiibruno",
+    "sounds": [
+      {
+        "name": "demonicblessing:4positiibruno",
+        "stream": false
+      }
+    ]
+  },
+  "bleachsongpre": {
+    "category": "block",
+    "subtitle": "subtitles.bleachsongpre",
+    "sounds": [
+      {
+        "name": "demonicblessing:standuppbestrong",
+        "stream": false
+      }
+    ]
+  },
+  "bleachfinalsong": {
+    "category": "block",
+    "subtitle": "subtitles.bleachfinalsong",
+    "sounds": [
+      {
+        "name": "demonicblessing:finalbattle",
+        "stream": false
+      }
+    ]
+  },
+  "sonido": {
+    "category": "block",
+    "subtitle": "subtitles.sonido",
+    "sounds": [
+      {
+        "name": "demonicblessing:sonido",
+        "stream": false
+      }
+    ]
+  },
+  "bankai": {
+    "category": "block",
+    "subtitle": "subtitles.bankai",
+    "sounds": [
+      {
+        "name": "demonicblessing:bankai",
+        "stream": false
+      }
+    ]
+  },
+  "finalbleach": {
+    "category": "block",
+    "subtitle": "subtitles.finalbleach",
+    "sounds": [
+      {
+        "name": "demonicblessing:clavarlaespada",
+        "stream": false
+      }
+    ]
+  },
+  "arrowbramma": {
+    "category": "block",
+    "subtitle": "subtitles.arrowbramma",
+    "sounds": [
+      {
+        "name": "demonicblessing:arrowbrammakuva",
+        "stream": false
+      }
+    ]
+  },
+  "shotbramma": {
+    "category": "block",
+    "subtitle": "subtitles.shotbramma",
+    "sounds": [
+      {
+        "name": "demonicblessing:shotbramma",
+        "stream": false
+      }
+    ]
+  },
+  "involaugh": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "demonicblessing:involaugh",
+        "stream": false
+      }
+    ]
+  },
+  "musonopodavitel": {
+    "category": "block",
+    "subtitle": "subtitles.musonopodavitel",
+    "sounds": [
+      {
+        "name": "demonicblessing:musonopodavitel",
+        "stream": false
+      }
+    ]
+  },
+  "musonopodavitelabsorber": {
+    "category": "block",
+    "subtitle": "subtitles.musonopodavitelabsorber",
+    "sounds": [
+      {
+        "name": "demonicblessing:musonabsorb",
+        "stream": false
+      }
+    ]
+  },
+  "minipekkadies": {
+    "category": "hostile",
+    "subtitle": "subtitles.minipekkadies",
+    "sounds": [
+      {
+        "name": "demonicblessing:pekkadies",
+        "stream": false
+      }
+    ]
+  },
+  "puncakes": {
+    "category": "hostile",
+    "subtitle": "subtitles.puncakes",
+    "sounds": [
+      {
+        "name": "demonicblessing:puncakes",
+        "stream": false
+      }
+    ]
+  },
+  "megatron": {
+    "category": "hostile",
+    "subtitle": "subtitles.megatron",
+    "sounds": [
+      {
+        "name": "demonicblessing:megatron",
+        "stream": false
+      }
+    ]
+  },
+  "robotattack1": {
+    "category": "hostile",
+    "subtitle": "subtitles.robotattack1",
+    "sounds": [
+      {
+        "name": "demonicblessing:robotattack1",
+        "stream": false
+      }
+    ]
+  },
+  "robotattack2": {
+    "category": "hostile",
+    "subtitle": "subtitles.robotattack2",
+    "sounds": [
+      {
+        "name": "demonicblessing:robotattack2",
+        "stream": false
+      }
+    ]
+  },
+  "robotwalking": {
+    "category": "hostile",
+    "subtitle": "subtitles.robotwalking",
+    "sounds": [
+      {
+        "name": "demonicblessing:robotwalking",
+        "stream": false
+      }
+    ]
+  },
+  "robotdies": {
+    "category": "hostile",
+    "subtitle": "subtitles.robotdies",
+    "sounds": [
+      {
+        "name": "demonicblessing:robotdies",
+        "stream": false
+      }
+    ]
+  },
+  "chestopening": {
+    "category": "block",
+    "subtitle": "subtitles.chestopening",
+    "sounds": [
+      {
+        "name": "demonicblessing:chestopening",
+        "stream": false
+      }
+    ]
+  }
+}

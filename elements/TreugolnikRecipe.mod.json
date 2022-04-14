@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.PUFFERFISH_BUCKET"
+      },
+      {
+        "value": "Items.SALMON_BUCKET"
+      },
+      {
+        "value": "Items.COD_BUCKET"
+      },
+      {
+        "value": "Items.TROPICAL_FISH_BUCKET"
+      },
+      {
+        "value": "CUSTOM:Mamaliga"
+      },
+      {
+        "value": "CUSTOM:Konfetka"
+      },
+      {
+        "value": "CUSTOM:Drumm"
+      },
+      {
+        "value": "Blocks.SKULL#0"
+      },
+      {
+        "value": "Items.MUSIC_DISC_PIGSTEP"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Popoo"
+    },
+    "name": "treugolnik_recipe",
+    "namespace": "mod"
+  }
+}

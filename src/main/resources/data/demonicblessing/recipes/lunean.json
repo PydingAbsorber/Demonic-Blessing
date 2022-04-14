@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:beef"
+    },
+    "1": {
+      "item": "minecraft:soul_soil"
+    },
+    "2": {
+      "item": "minecraft:bone"
+    },
+    "3": {
+      "item": "minecraft:beef"
+    },
+    "4": {
+      "item": "minecraft:soul_soil"
+    },
+    "5": {
+      "item": "minecraft:bone"
+    },
+    "6": {
+      "item": "minecraft:beef"
+    },
+    "7": {
+      "item": "minecraft:soul_soil"
+    },
+    "8": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:moon",
+    "count": 1
+  }
+}

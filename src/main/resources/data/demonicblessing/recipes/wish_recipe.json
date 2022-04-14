@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:wallet"
+    },
+    "1": {
+      "item": "demonicblessing:wallet"
+    },
+    "2": {
+      "item": "demonicblessing:wallet"
+    },
+    "3": {
+      "item": "demonicblessing:wallet"
+    },
+    "4": {
+      "item": "demonicblessing:flux"
+    },
+    "5": {
+      "item": "demonicblessing:wallet"
+    },
+    "6": {
+      "item": "demonicblessing:wallet"
+    },
+    "7": {
+      "item": "demonicblessing:wallet"
+    },
+    "8": {
+      "item": "demonicblessing:wallet"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:walletx_8",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "vuduu",
+    "customModelName": "Normal",
+    "name": "Кукла Вуду Fuck Jresko",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Может террария подскажет",
+      "что с ней надо сделать?"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onDroppedByPlayer": {
+      "name": "FuckJreskoSummonItemIsDroppedByPlayer"
+    },
+    "hasDispenseBehavior": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Сонидо влево",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "AaOnKeyPressed"
+    }
+  }
+}

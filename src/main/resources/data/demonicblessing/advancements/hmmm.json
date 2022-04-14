@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "demonicblessing:secret_boss_spawn"
+    },
+    "title": {
+      "translate": "advancements.hmmm.title"
+    },
+    "description": {
+      "translate": "advancements.hmmm.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hmmm": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10000,
+    "loot": [
+      "demonicblessing:entities/secret_boss"
+    ]
+  },
+  "parent": "demonicblessing:fuck_jresco"
+}

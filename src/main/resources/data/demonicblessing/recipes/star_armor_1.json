@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "1": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "3": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "4": {
+      "item": "demonicblessing:star"
+    },
+    "5": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "6": {
+      "item": "minecraft:blue_dye"
+    },
+    "7": {
+      "item": "demonicblessing:walletx_8"
+    },
+    "8": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:star_armor_helmet",
+    "count": 1
+  }
+}

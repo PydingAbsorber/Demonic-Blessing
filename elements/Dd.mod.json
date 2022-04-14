@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "Сонидо вправо",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "DdOnKeyPressed"
+    }
+  }
+}

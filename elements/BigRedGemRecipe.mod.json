@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FireDust"
+      },
+      {
+        "value": "CUSTOM:FireDust"
+      },
+      {
+        "value": "CUSTOM:FireDust"
+      },
+      {
+        "value": "CUSTOM:FireDust"
+      },
+      {
+        "value": "CUSTOM:FireDust"
+      },
+      {
+        "value": "CUSTOM:FireDust"
+      },
+      {
+        "value": "CUSTOM:FireDust"
+      },
+      {
+        "value": "CUSTOM:FireDust"
+      },
+      {
+        "value": "CUSTOM:FireDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedGemBig"
+    },
+    "name": "big_red_gem_recipe",
+    "namespace": "mod"
+  }
+}

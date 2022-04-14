@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:fly_time> sec",
+          "color": {
+            "value": -10092289,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "FlyTimeDisplayOverlayIngame"
+          },
+          "name": "<VAR:integer:fly_time> sec",
+          "x": 192,
+          "y": -59
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "FlyTimeDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

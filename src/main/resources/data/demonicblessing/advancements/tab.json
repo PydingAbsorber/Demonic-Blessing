@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "demonicblessing:textures/podavitel.png",
+    "icon": {
+      "item": "demonicblessing:godlyredsoul"
+    },
+    "title": {
+      "translate": "advancements.tab.title"
+    },
+    "description": {
+      "translate": "advancements.tab.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tab": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "shadow_helm",
+    "enableBody": true,
+    "textureBody": "shadow_chest",
+    "enableLeggings": true,
+    "textureLeggings": "shadow_shtani",
+    "enableBoots": true,
+    "textureBoots": "shadow_buts",
+    "onBodyTick": {
+      "name": "ShadowArmorBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "armorTextureFile": "pustishka",
+    "helmetName": "§5Теневой Шлем",
+    "bodyName": "§5Теневой Нагрудник",
+    "leggingsName": "§5Теневые Штаны",
+    "bootsName": "§5Теневые Тапки",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelshadowhelm",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "shadowhelm.png",
+    "bodyModelName": "Modelshadowchest",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "shadowchest.png",
+    "leggingsModelName": "Modelshadowlegs",
+    "leggingsModelPartL": "RightLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "shadowlegs.png",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 0,
+    "damageValueHelmet": 20,
+    "damageValueBody": 20,
+    "damageValueLeggings": 20,
+    "damageValueBoots": 20,
+    "enchantability": 22,
+    "toughness": 10.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "demonicblessing:air_gem_big"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "demonicblessing:red_gem_big"
+    },
+    "4": {
+      "item": "demonicblessing:cosmic_gem_big"
+    },
+    "5": {
+      "item": "demonicblessing:blue_gem_big"
+    },
+    "6": {
+      "item": "minecraft:netherite_block"
+    },
+    "7": {
+      "item": "minecraft:netherite_block"
+    },
+    "8": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:gem_forge",
+    "count": 1
+  }
+}

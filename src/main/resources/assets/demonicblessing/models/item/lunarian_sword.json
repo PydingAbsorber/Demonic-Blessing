@@ -1,0 +1,7 @@
+{
+  "parent": "demonicblessing:custom/lunariansword",
+  "textures": {
+    "0": "demonicblessing:blocks/lunarianswrodtexture",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

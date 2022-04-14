@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "qwe_handle",
+        "1": "qwe_details",
+        "2": "qwe_blade",
+        "3": "qwe_blade2",
+        "4": "palytra",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

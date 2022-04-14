@@ -1,0 +1,7 @@
+{
+  "parent": "demonicblessing:custom/modelichigosword",
+  "textures": {
+    "0": "demonicblessing:blocks/ichigoswordtexture",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

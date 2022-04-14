@@ -1,0 +1,13 @@
+{
+  "parent": "demonicblessing:custom/qwe_postament",
+  "textures": {
+    "all": "demonicblessing:blocks/star",
+    "particle": "demonicblessing:blocks/star",
+    "0": "demonicblessing:blocks/qwe_handle",
+    "1": "demonicblessing:blocks/qwe_details",
+    "2": "demonicblessing:blocks/qwe_blade",
+    "3": "demonicblessing:blocks/qwe_blade2",
+    "4": "demonicblessing:blocks/palytra",
+    "missing": "demonicblessing:blocks/"
+  }
+}

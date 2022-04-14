@@ -1,0 +1,132 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 400,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "1chaka.png",
+          "use1Xscale": true,
+          "name": "1chaka.png",
+          "x": 170,
+          "y": -1
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pata",
+          "onClick": {
+            "name": "Pata"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Pata",
+          "x": 142,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Pon",
+          "onClick": {
+            "name": "Pon"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Pon",
+          "x": 245,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Don",
+          "onClick": {
+            "name": "Don"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Don",
+          "x": 193,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Chaka",
+          "onClick": {
+            "name": "Chaka"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Chaka",
+          "x": 188,
+          "y": 68
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "обновить",
+          "onClick": {
+            "name": "Cancel"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "обновить",
+          "x": 199,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1don.png",
+          "use1Xscale": true,
+          "name": "1don.png",
+          "x": 195,
+          "y": 168
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1pata.png",
+          "use1Xscale": true,
+          "name": "1pata.png",
+          "x": 55,
+          "y": 85
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1pon.png",
+          "use1Xscale": true,
+          "name": "1pon.png",
+          "x": 295,
+          "y": 84
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

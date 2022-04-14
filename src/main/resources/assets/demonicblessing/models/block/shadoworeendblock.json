@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demonicblessing:blocks/end_stone_ore",
+    "up": "demonicblessing:blocks/end_stone_ore",
+    "north": "demonicblessing:blocks/end_stone_ore",
+    "east": "demonicblessing:blocks/end_stone_ore",
+    "south": "demonicblessing:blocks/end_stone_ore",
+    "west": "demonicblessing:blocks/end_stone_ore",
+    "particle": "demonicblessing:blocks/end_stone_ore"
+  }
+}

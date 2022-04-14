@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "demonicblessing:achievement"
+    },
+    "title": {
+      "translate": "advancements.prepare_final.title"
+    },
+    "description": {
+      "translate": "advancements.prepare_final.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "prepare_final": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "loot": [
+      "demonicblessing:entities/fuck_jresko_summon_give"
+    ]
+  },
+  "parent": "demonicblessing:ticket_to_what"
+}

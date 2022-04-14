@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sweet_berries"
+    },
+    "1": {
+      "item": "minecraft:sweet_berries"
+    },
+    "2": {
+      "item": "minecraft:sweet_berries"
+    },
+    "3": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "4": {
+      "item": "minecraft:milk_bucket"
+    },
+    "5": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "6": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "7": {
+      "item": "minecraft:honey_bottle"
+    },
+    "8": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:konfetka",
+    "count": 8
+  }
+}

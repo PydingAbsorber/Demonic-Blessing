@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "demonicblessing:blocks/dd8",
+    "up": "demonicblessing:blocks/dd8",
+    "north": "demonicblessing:blocks/dd8",
+    "east": "demonicblessing:blocks/dd8",
+    "south": "demonicblessing:blocks/dd8",
+    "west": "demonicblessing:blocks/dd8",
+    "particle": "demonicblessing:blocks/dd8"
+  }
+}

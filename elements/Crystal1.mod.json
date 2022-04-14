@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "crystal22",
+    "customModelName": "Normal",
+    "name": " Кристалл увеличенной ёмкости",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§bУвеличивает количество зарядов телепорта с 1 до 3",
+      "§bно взамен заряды восстанавливаются теперь за время 3 зарядов и сразу все"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
+  }
+}

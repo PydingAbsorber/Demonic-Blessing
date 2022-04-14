@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 10,
+  "cookingtime": 20,
+  "ingredient": {
+    "item": "demonicblessing:fresh_meat"
+  },
+  "result": {
+    "item": "demonicblessing:cooked_meat"
+  }
+}

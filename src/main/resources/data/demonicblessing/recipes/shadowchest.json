@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "2": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "3": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "4": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "5": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "6": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "7": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "8": {
+      "item": "demonicblessing:shadowzxc"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:shadow_armor_chestplate",
+    "count": 1
+  }
+}

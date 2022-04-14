@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "demonicblessing:block/moon_portal_ew"
+    },
+    "axis=x": {
+      "model": "demonicblessing:block/moon_portal_ns"
+    }
+  }
+}

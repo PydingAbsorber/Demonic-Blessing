@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:parasha"
+    },
+    "1": {
+      "item": "demonicblessing:popoo_2"
+    },
+    "2": {
+      "item": "demonicblessing:popoo"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:bilet",
+    "count": 1
+  }
+}

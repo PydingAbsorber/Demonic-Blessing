@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:flux"
+    },
+    "1": {
+      "item": "demonicblessing:flux"
+    },
+    "2": {
+      "item": "demonicblessing:flux"
+    },
+    "3": {
+      "item": "demonicblessing:flux"
+    },
+    "4": {
+      "item": "demonicblessing:flux"
+    },
+    "5": {
+      "item": "demonicblessing:flux"
+    },
+    "6": {
+      "item": "demonicblessing:flux"
+    },
+    "7": {
+      "item": "demonicblessing:flux"
+    },
+    "8": {
+      "item": "demonicblessing:flux"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:megaflux_tank",
+    "count": 1
+  }
+}

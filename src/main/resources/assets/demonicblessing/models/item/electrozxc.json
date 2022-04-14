@@ -1,0 +1,7 @@
+{
+  "parent": "demonicblessing:custom/electro_zxc",
+  "textures": {
+    "0": "demonicblessing:blocks/voxel_palette",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

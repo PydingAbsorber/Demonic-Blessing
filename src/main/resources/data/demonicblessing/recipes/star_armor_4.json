@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "1": {
+      "item": "minecraft:netherite_boots"
+    },
+    "2": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "3": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "4": {
+      "item": "demonicblessing:star"
+    },
+    "5": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "6": {
+      "item": "minecraft:black_dye"
+    },
+    "7": {
+      "item": "demonicblessing:walletx_8"
+    },
+    "8": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:star_armor_boots",
+    "count": 1
+  }
+}

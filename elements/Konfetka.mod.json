@@ -1,0 +1,34 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "konfetka",
+    "customModelName": "Normal",
+    "name": "Кишинёвская ночь",
+    "rarity": "RARE",
+    "specialInfo": [
+      "Лушие конфеты в Молдове"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 7.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "KonfetkaFoodEaten"
+    },
+    "onEntitySwing": {
+      "name": "PlayerTickupdate"
+    }
+  }
+}

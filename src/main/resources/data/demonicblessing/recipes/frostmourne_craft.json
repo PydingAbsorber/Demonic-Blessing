@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "demonicblessing:broken_frost_mourne"
+    },
+    {
+      "item": "demonicblessing:handle_frost_mourne"
+    }
+  ],
+  "result": {
+    "item": "demonicblessing:frost_mourne",
+    "count": 1
+  }
+}

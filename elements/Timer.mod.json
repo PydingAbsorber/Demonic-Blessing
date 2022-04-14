@@ -1,0 +1,44 @@
+{
+  "_fv": 24,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "chasy.png",
+          "use1Xscale": true,
+          "name": "chasy.png",
+          "x": 41,
+          "y": -138
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<ENBT:number:sec>",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "<ENBT:number:sec>",
+          "x": 245,
+          "y": -66
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "TimerDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

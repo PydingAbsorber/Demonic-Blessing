@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:water_dust"
+    },
+    "1": {
+      "item": "demonicblessing:water_dust"
+    },
+    "2": {
+      "item": "demonicblessing:water_dust"
+    },
+    "3": {
+      "item": "demonicblessing:water_dust"
+    },
+    "4": {
+      "item": "demonicblessing:water_dust"
+    },
+    "5": {
+      "item": "demonicblessing:water_dust"
+    },
+    "6": {
+      "item": "demonicblessing:water_dust"
+    },
+    "7": {
+      "item": "demonicblessing:water_dust"
+    },
+    "8": {
+      "item": "demonicblessing:water_dust"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:blue_gem_big",
+    "count": 1
+  }
+}

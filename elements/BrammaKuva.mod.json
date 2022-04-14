@@ -1,0 +1,54 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "aaa",
+    "customModelName": "brammakuva:default",
+    "name": "§4Bramma §eKuva",
+    "specialInfo": [
+      "§5Самое сильное основное оружие в игре Warframe"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:arrowbramma"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "BrammaKuvaRangedItemUsed"
+    },
+    "useCondition": {
+      "name": "BrammaKuvaCanUseRangedItem"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 1050.0,
+    "bulletKnockback": 0,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Items.TIPPED_ARROW"
+    },
+    "bulletModel": "ModelArrowBrammaKuva",
+    "customBulletModelTexture": "texturearrowbrammakuva.png",
+    "onBulletHitsBlock": {
+      "name": "BrammaKuvaBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "BrammaKuvaBulletHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "BrammaKuvaBulletHitsLivingEntity"
+    }
+  }
+}

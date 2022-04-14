@@ -1,0 +1,37 @@
+{
+  "_fv": 24,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "amitist",
+    "customModelName": "Normal",
+    "name": "§4П§c§6е§eр§2в§aо§bр§3о§1д§9н§dы§5й §fа§4м§cе§6т§eи§2с§aт",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:DemonicBlessing"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§4Добавляет §cрассекающему §6туману §eко §2всем §aатакам §bдополнительный §bвоид §1урон",
+      "§9гарантирует §d50% §5шанс §fне §4получить §cкд §6после §eактивации §2ульты(чо зе gayский cumень?)"
+    ],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "hasDispenseBehavior": false
+  }
+}

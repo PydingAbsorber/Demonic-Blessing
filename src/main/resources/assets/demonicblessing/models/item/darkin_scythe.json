@@ -1,0 +1,29 @@
+{
+  "parent": "demonicblessing:custom/darkin_scythe2",
+  "textures": {
+    "22": "demonicblessing:blocks/dd23",
+    "11": "demonicblessing:blocks/dd12",
+    "12": "demonicblessing:blocks/dd13",
+    "13": "demonicblessing:blocks/dd14",
+    "14": "demonicblessing:blocks/dd15",
+    "15": "demonicblessing:blocks/dd16",
+    "16": "demonicblessing:blocks/dd17",
+    "17": "demonicblessing:blocks/dd18",
+    "18": "demonicblessing:blocks/dd19",
+    "19": "demonicblessing:blocks/dd20",
+    "0": "demonicblessing:blocks/dd1",
+    "1": "demonicblessing:blocks/dd2",
+    "2": "demonicblessing:blocks/dd3",
+    "3": "demonicblessing:blocks/dd4",
+    "4": "demonicblessing:blocks/dd5",
+    "5": "demonicblessing:blocks/dd6",
+    "6": "demonicblessing:blocks/dd7",
+    "7": "demonicblessing:blocks/dd8",
+    "8": "demonicblessing:blocks/dd9",
+    "9": "demonicblessing:blocks/dd10",
+    "20": "demonicblessing:blocks/dd21",
+    "21": "demonicblessing:blocks/dd22",
+    "10": "demonicblessing:blocks/dd11",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tex1",
+        "1": "tex2",
+        "2": "tex3",
+        "3": "texture4",
+        "4": "texture5",
+        "5": "texture6",
+        "6": "texture7"
+      },
+      "name": "default"
+    }
+  }
+}

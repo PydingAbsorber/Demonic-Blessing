@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "1": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "2": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "3": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "4": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "5": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "6": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "7": {
+      "item": "demonicblessing:fire_dust"
+    },
+    "8": {
+      "item": "demonicblessing:fire_dust"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:red_gem_big",
+    "count": 1
+  }
+}

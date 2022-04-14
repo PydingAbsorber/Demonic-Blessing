@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "1": {
+      "item": "demonicblessing:nether_star_block"
+    },
+    "2": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "3": {
+      "item": "minecraft:netherite_block"
+    },
+    "4": {
+      "item": "minecraft:dragon_egg"
+    },
+    "5": {
+      "item": "minecraft:netherite_block"
+    },
+    "6": {
+      "item": "demonicblessing:shadowzxc"
+    },
+    "7": {
+      "item": "demonicblessing:nether_star_block"
+    },
+    "8": {
+      "item": "demonicblessing:shadowzxc"
+    }
+  },
+  "result": {
+    "item": "demonicblessing:handle_frost_mourne",
+    "count": 1
+  }
+}

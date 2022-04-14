@@ -1,0 +1,7 @@
+{
+  "parent": "demonicblessing:custom/purplescythe",
+  "textures": {
+    "0": "demonicblessing:blocks/purplevoxel",
+    "particle": "demonicblessing:items/aaa"
+  }
+}

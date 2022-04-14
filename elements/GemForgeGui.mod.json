@@ -1,0 +1,120 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 260,
+    "height": 167,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ChaosSpark"
+          },
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 318,
+          "y": 99
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Imrpove Stat",
+          "onClick": {
+            "name": "BuilderFocusFunction"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "Imrpove Stat",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:BuildersForucs"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 86,
+          "y": 98
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 203,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Reroll Stats",
+          "onClick": {
+            "name": "ChaosSparkFunction"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "Reroll Stats",
+          "x": 231,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_105.png",
+          "use1Xscale": true,
+          "name": "screenshot_105.png",
+          "x": -21,
+          "y": -46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui3.png",
+          "use1Xscale": false,
+          "name": "gui3.png",
+          "x": 83,
+          "y": -20
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

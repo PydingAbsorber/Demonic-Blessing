@@ -1,0 +1,8 @@
+{
+  "parent": "demonicblessing:custom/mediumchest",
+  "textures": {
+    "all": "demonicblessing:blocks/mediumchestnew",
+    "particle": "demonicblessing:blocks/mediumchestnew",
+    "0": "demonicblessing:blocks/mediumchesttexture"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "demonicblessing:custom/qwe_frostmourne",
+  "textures": {
+    "0": "demonicblessing:blocks/qwe_handle",
+    "1": "demonicblessing:blocks/qwe_details",
+    "2": "demonicblessing:blocks/qwe_blade",
+    "3": "demonicblessing:blocks/qwe_blade2",
+    "missing": "demonicblessing:blocks/",
+    "particle": "demonicblessing:items/qwe_frostmournetexture"
+  }
+}

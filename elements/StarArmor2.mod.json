@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.NETHERITE_CHESTPLATE"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "CUSTOM:Star"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "CUSTOM:Walletx8"
+      },
+      {
+        "value": "Items.DYE#14"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StarArmor.body"
+    },
+    "name": "star_armor_2",
+    "namespace": "mod"
+  }
+}
